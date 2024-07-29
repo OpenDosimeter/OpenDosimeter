@@ -15,11 +15,12 @@ Follow these steps to order the OpenDosimeter board:
     - Click "Std Edition"
     - Click "New Project" and give it a title
     - Drag and drop both the PCB and SCH files into EasyEDA
-      |  file  |  image |
-      |--------|--------|
-      |schematic|<img width="240" alt="Image of Schematic file" src="https://github.com/user-attachments/assets/ce661b25-9531-46c1-96a8-eccab1b3691f"> | 
-      | PCB | img2 |
-     
+      |  file  |                  image                  |
+      |--------|-----------------------------------------|
+      |PCB|<img width="400" alt="Image of PCB File" src="https://github.com/user-attachments/assets/ce661b25-9531-46c1-96a8-eccab1b3691f"> | 
+      | Schematic |<img width="400" alt="Image of Schematic File" src="https://github.com/user-attachments/assets/e582a008-7870-41ae-bcdd-088169dfb7a5">
+ |
+
    
     - File --> Save or CMD + s to save both files to the project you created
     - On the PCB file, click Fabrication --> One Click Order PCB/SMT --> Yes, Check DCR --> One Click Order --> OK
