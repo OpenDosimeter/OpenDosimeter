@@ -6,11 +6,6 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 <img width="650" alt="device-overview" src="https://github.com/user-attachments/assets/54826510-fd85-4265-87bd-19655e41ca28">
 </div>
 
-
-<p align="center">
-  <img alt="Photo of the detector board with mounted SiPM, crystal and OLED" title="Photo of the detector board with mounted SiPM, crystal and OLED" width="500px" src="docs/board-overview.jpg">
-</p>
-
 ## Features 
 
 ## How to Get One 
