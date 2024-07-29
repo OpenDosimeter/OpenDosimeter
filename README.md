@@ -1,4 +1,4 @@
 # OpenDosimeter
 
 
-![example](docs/Board overview.pdf)
+![example](docs/board-overview.png)
