@@ -8,7 +8,7 @@ This software folder contains a precompiled file for simplest set up, and the ar
 2. Use the micro-USB connection to plug the Raspberry Pi Pico into a computer
 3. When the file manager window pops up, drag the ``OpenDosimeter.uf2`` file into the directory. Your device should restart and is now ready for callibration.
 
-### Modifying the Code
+### Modifying the Code in ArduinoIDE
 **Here's how you can modify the provided code**
 1. Download ArduinoIDE
 2. Download Arduino-Pico so your computer recognizes the Raspberry Pi Pico
@@ -26,5 +26,7 @@ This software folder contains a precompiled file for simplest set up, and the ar
     - Tools --> Board --> Raspberry Pi RP2040 Boards --> Flash Size: 2MB (Sketch: 1MB, FS: 1MB)
     - Keep remaining settings at default values
     - Press the ``Upload`` button
-  
+
+### Data Log
+$\text{\color{red} Add link to data log once website live}$
 
