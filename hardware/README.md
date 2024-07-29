@@ -1,8 +1,10 @@
 # Hardware
 
 This hardware file contains the schematic and PCB design files needed to manufacture the OpenDosimeter board. Our design leverages a LYSO scintillation crystal and SiPM (silicon photomultiplier). 
+## Components
 
-## Ordering the PCB
+### OpenDosimeter PCB
+Follow these steps to order the OpenDosimeter board: 
 1. **Download Files:** download the following files located in this folder
     - [openDosimeter_PCB_EasyEDA.json](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/hardware/OpenDosimeter_PCB_EasyEDA.json)
     - [openDosimeter_SCH_EasyEDA.json](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/hardware/OpenDosimeter_SCH_EasyEDA.json)
@@ -23,4 +25,9 @@ This hardware file contains the schematic and PCB design files needed to manufac
     - Confirm --> Next --> Next -->
     - Select a product description from drop down
     - Add to cart and checkout
+
+### Scintillator Crystals 
+$\textsf{\color{red}Red text}$
+
+### 
 
