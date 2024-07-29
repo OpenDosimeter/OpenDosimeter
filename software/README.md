@@ -23,8 +23,8 @@ This software folder contains a precompiled file for simplest set up, and the ar
     - RunningMedian
 6. Modify the code as desired
 7. Flash the Pico
-  - Tools --> Board --> Raspberry Pi RP2040 Boards --> Flash Size: 2MB (Sketch: 1MB, FS: 1MB)
-  - Keep remaining settings at default values
-  - Press the ``Upload`` button
+    - Tools --> Board --> Raspberry Pi RP2040 Boards --> Flash Size: 2MB (Sketch: 1MB, FS: 1MB)
+    - Keep remaining settings at default values
+    - Press the ``Upload`` button
   
 
