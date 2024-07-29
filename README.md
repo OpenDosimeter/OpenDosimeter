@@ -6,7 +6,10 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 <img width="650" alt="device-overview" src="https://github.com/user-attachments/assets/54826510-fd85-4265-87bd-19655e41ca28">
 </div>
 
-## Features 
+## Key Features 
+- Open-Source Design: The hardware and software are fully open-source, enabling customization and personalization of the enhance and broaden the capabilities of the dosimeter.
+- Affordable: 
+<img width="463" alt="Cost Breakdown" src="https://github.com/user-attachments/assets/65f5abfe-b1fb-4192-8f79-10c1414b636d">
 
 ## How to Get One 
 
