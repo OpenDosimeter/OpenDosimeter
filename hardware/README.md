@@ -1,6 +1,6 @@
 # Hardware
 
-This hardware file contains the schematic and PCB design files needed to manufacture the OpenDosimeter board. Our design leverages a LYSO scintillation crystal and SiPM (silicon photomultiplier). 
+This hardware folder contains the schematic and PCB design files needed to manufacture the OpenDosimeter board. Our design leverages a LYSO scintillation crystal and SiPM (silicon photomultiplier). 
 ## Components
 
 ### OpenDosimeter PCB
