@@ -14,5 +14,13 @@ This hardware file contains the schematic and PCB design files needed to manufac
     - Click "New Project" and give it a title
     - Drag and drop both the PCB and SCH files into EasyEDA
     - File --> Save or CMD + s to save both files to the project you created
-    - 
-3. 
+    - On the PCB file, click Fabrication --> One Click Order PCB/SMT --> Yes, Check DCR --> One Click Order --> OK
+3. **Open in JLCPCB**
+    - Once redirected to JLCPCB, log in or create an account
+    - Select quantity of PCB
+    - Recomended: Select LeadFree HSL
+    - Select PCB Assembly
+    - Confirm --> Next --> Next -->
+    - Select a product description from drop down
+    - Add to cart and checkout
+
