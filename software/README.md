@@ -15,12 +15,12 @@ This software folder contains a precompiled file for simplest set up, and the ar
 3. Download the folder [OpenDosimeter_ino](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/software/OpenDosimeter_ino)
 4. Open the file ``OpenDosimeter_ino.ino`` to open the code in ArduinoIDE
 5. Use the Library Manager (tools --> library manager) to download the following dependency packages
-  - TaskScheduler
-  - SimpleShellEnhanced
-  - ArduinoJson
-  - Adafruit_SSD1306
-  - Adafruit_SH110X
-  - RunningMedian
+    - TaskScheduler
+    - SimpleShellEnhanced
+    - ArduinoJson
+    - Adafruit_SSD1306
+    - Adafruit_SH110X
+    - RunningMedian
 6. Modify the code as desired
 7. Flash the Pico
   - Tools --> Board --> Raspberry Pi RP2040 Boards --> Flash Size: 2MB (Sketch: 1MB, FS: 1MB)
