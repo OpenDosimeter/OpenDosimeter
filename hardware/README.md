@@ -15,6 +15,11 @@ Follow these steps to order the OpenDosimeter board:
     - Click "Std Edition"
     - Click "New Project" and give it a title
     - Drag and drop both the PCB and SCH files into EasyEDA
+      | Schematic | img1 |
+      |-----------|------|
+      | PCB | img2 |
+      
+   
     - File --> Save or CMD + s to save both files to the project you created
     - On the PCB file, click Fabrication --> One Click Order PCB/SMT --> Yes, Check DCR --> One Click Order --> OK
 3. **Open in JLCPCB**
