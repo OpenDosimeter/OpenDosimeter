@@ -11,5 +11,8 @@ This hardware file contains the schematic and PCB design files needed to manufac
     - Log in or create an account
     - Click the "Design Online"
     - Click "Std Edition"
-    - Click "New Project"
+    - Click "New Project" and give it a title
+    - Drag and drop both the PCB and SCH files into EasyEDA
+    - File --> Save or CMD + s to save both files to the project you created
+    - 
 3. 
