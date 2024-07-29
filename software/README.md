@@ -10,3 +10,7 @@ This software folder contains a precompiled file for simplest set up, and the ar
 
 ### Modifying the Code
 **Here's how you can modify the provided code**
+1. Download Arduino
+2. Download Arduino-Pico so your computer recognizes the Raspberry Pi Pico
+3. Download the folder [OpenDosimeter_ino](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/software/OpenDosimeter_ino)
+4. Open the file ``OpenDosimeter_ino.ino``
