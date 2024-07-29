@@ -1,4 +1,5 @@
 # Software 
+This software folder contains a precompiled file for simplest set up, and the arduino sketch to make changes to the software. Below are instructions for how to program your OpenDosimeter. 
 
 ## Programming the Raspberry Pi Pico
 ### Default Settings
