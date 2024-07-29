@@ -7,9 +7,11 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 </div>
 
 ## Key Features 
-- Open-Source Design: The hardware and software are fully open-source, enabling customization and personalization of the enhance and broaden the capabilities of the dosimeter.
-- Affordable: 
-<img width="463" alt="Cost Breakdown" src="https://github.com/user-attachments/assets/65f5abfe-b1fb-4192-8f79-10c1414b636d">
+- **Open-Source Design:** The hardware and software are fully open-source, enabling customization and personalization of the enhance and broaden the capabilities of the dosimeter.
+- **Affordable:** With a price point around $90, the device is a low-cost option to democratize access to radiation safety.
+  <div aign=center>
+    <img width="463" alt="Cost Breakdown" src="https://github.com/user-attachments/assets/65f5abfe-b1fb-4192-8f79-10c1414b636d">
+  </div>
 
 ## How to Get One 
 
