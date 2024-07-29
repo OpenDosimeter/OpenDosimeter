@@ -4,6 +4,6 @@ This hardware file contains the schematic and PCB design files needed to manufac
 
 ## Ordering the PCB
 1. **Download Files:** download the following files located in this folder
-    - [openDosimeter_PCB_EasyEDA.json](/openDosimeter_PCB_EasyEDA.json)
-    - [openDosimeter_SCH_EasyEDA.json](/openDosimeter_PCB_EasyEDA.json)
+    - [openDosimeter_PCB_EasyEDA.json](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/hardware/OpenDosimeter_PCB_EasyEDA.json))
+    - [openDosimeter_SCH_EasyEDA.json](openDosimeter_PCB_EasyEDA.json)
 2. **Open in EasyEDA**
