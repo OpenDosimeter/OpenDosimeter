@@ -7,3 +7,8 @@ This hardware file contains the schematic and PCB design files needed to manufac
     - [openDosimeter_PCB_EasyEDA.json](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/hardware/OpenDosimeter_PCB_EasyEDA.json)
     - [openDosimeter_SCH_EasyEDA.json](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/hardware/OpenDosimeter_SCH_EasyEDA.json)
 2. **Open in EasyEDA**
+    - Go to [EasyEDA](https://easyeda.com/)
+    - Log in or create an account
+    - Click the "Open Button"
+    - 
+3. 
