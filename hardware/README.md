@@ -16,7 +16,8 @@ Follow these steps to order the OpenDosimeter board:
     - Click "New Project" and give it a title
     - Drag and drop both the PCB and SCH files into EasyEDA
 
-      |PCB|<img width="400" alt="Image of PCB File" src="https://github.com/user-attachments/assets/ce661b25-9531-46c1-96a8-eccab1b3691f"> | 
+      |PCB|<img width="400" alt="Image of PCB File" src="https://github.com/user-attachments/assets/ce661b25-9531-46c1-96a8-eccab1b3691f"> |
+      |--------|-----------------------------------------|
       | **Schematic** |<img width="400" alt="Image of Schematic File" src="https://github.com/user-attachments/assets/e582a008-7870-41ae-bcdd-088169dfb7a5">
  |
 
