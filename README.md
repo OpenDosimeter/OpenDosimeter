@@ -8,7 +8,7 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 
 
 <p align="center">
-  <img alt="Photo of the detector board with mounted SiPM, crystal and OLED" title="Photo of the detector board with mounted SiPM, crystal and OLED" width="500px" src="docs/board-overview.png">
+  <img alt="Photo of the detector board with mounted SiPM, crystal and OLED" title="Photo of the detector board with mounted SiPM, crystal and OLED" width="500px" src="docs/board-overview.jpg">
 </p>
 
 ## Features 
