@@ -26,8 +26,11 @@ Follow these steps to order the OpenDosimeter board:
     - Select a product description from drop down
     - Add to cart and checkout
 
+### 3D Printed Case 
+We have designed 3D-printable cases for OpenDosimeter with different styles. Each case has two parts, a top and bottom. The .stl files can be found in the [case](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/case) folder.
 ### Scintillator Crystals 
-$\textsf{\color{red}Red text}$
+$\textsf{\color{red}Red Link to brand and location of LYSO crystals we recommend using}$
 
 ### 
+### Optical Couplant
 
