@@ -6,3 +6,18 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 <img width="650" alt="device-overview" src="https://github.com/user-attachments/assets/54826510-fd85-4265-87bd-19655e41ca28">
 </div>
 
+# Features 
+
+# How to Get One 
+
+# Working Principle 
+
+# Hardware 
+
+# Software 
+
+# Troubleshooting and FAQ
+
+# Known Limitations 
+1. The power switch is fragile and can easily be broken if pressed too hard. Future iterations of the hardware could feature a power button similar to the side button which would increase the durability and longevity of the device.
+
