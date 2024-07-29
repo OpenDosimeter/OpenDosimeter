@@ -36,6 +36,16 @@ We have designed 3D-printable cases for OpenDosimeter with different styles. Eac
 ### Scintillator Crystals 
 $\text{\color{red} Link to brand and location of LYSO crystals we recommend using}$
 
-### 
+### SiPM (Silicon Photomultipier)
+$\text{\color{red} Fill this in}$
+
 ### Optical Couplant
+Applying optical couplant between the scintilattor crystal and SiPM will allow efficient photon detection and reduce reflections. Many options will work, we recommend the following 
+
+| Description            | Brand  | Reflective Index | Viscosity (cPs)| Cost (USD) | Comment |
+|------------------------|--------|------------------|----------------|------------|---------|
+|Molykote Industrial 4 Electrical Insulating Compound | Dow Corning | N/A | Grease | ~$20 | Used by Ludlum for their survey meter scintillation detectors. |
+
+
+$\text{\color{red} Fill this in}$
 
