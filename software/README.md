@@ -40,7 +40,7 @@ Once your device is programmed, you should see the OpenDosimeter home screen and
 <div align="center">
 <img width="700" alt="software states" src="https://github.com/user-attachments/assets/c6200f90-329b-47db-9c23-d41645b06a1c">
 </div>
-$\text{\color{red} is this a good section to add? not in OGD}$
+$\text{\color{red} not in OGD, good section addition maybe}$
 
 ### Calibrating the Device
 **A step-by-step guide to calibrating the device is on our YouTube channel**
@@ -50,7 +50,7 @@ $\text{\color{red} is this a good section to add? not in OGD}$
     <img  src="https://github.com/user-attachments/assets/e5be1f51-4546-4f0d-8dd3-b335cabdabfa" alt="OpenDosimeter Calibration" width="540" target="_blank" style="border:none; ">
 </a>
 </div>
-$\text{\color{red} is this a good section to add? not in OGD}$
+$\text{\color{red} not in OGD, good section addition maybe}$
 
 ### Data Log
 $\text{\color{red} Add link to data log once website live}$
