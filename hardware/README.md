@@ -27,7 +27,7 @@ Follow these steps to order the OpenDosimeter board:
     - Select quantity of PCB
     - Recomended: Select LeadFree HSL
     - Select PCB Assembly
-    - Confirm --> Next --> Next -->
+    - Confirm --> Next --> Next --> OK
     - Select a product description from drop down
     - Add to cart and checkout
 
