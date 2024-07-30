@@ -40,6 +40,8 @@ Once your device is programmed, you should see the OpenDosimeter home screen and
 <div align="center">
 <img width="700" alt="software states" src="https://github.com/user-attachments/assets/c6200f90-329b-47db-9c23-d41645b06a1c">
 </div>
+
+
 $\text{\color{red} not in OGD, good section addition maybe}$
 
 ### Calibrating the Device
