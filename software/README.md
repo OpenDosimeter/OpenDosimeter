@@ -27,6 +27,25 @@ This software folder contains a precompiled file for simplest set up, and the ar
     - Keep remaining settings at default values
     - Press the ``Upload`` button
 
+### Programmed Device Overview
+**A complete overview of the device is on our YouTube channel**
+
+[![OpenDosimeter Device Overview](<img width="640" alt="Device Overview Thumbnail" src="https://github.com/user-attachments/assets/53b02fc0-6265-410c-bbe5-db1627b98fe2">
+)]([https://www.youtube.com/watch?v=dQw4w9WgXcQ](https://www.youtube.com/watch?v=nXH3Gc72z8Y))
+
+
+Once your device is programmed, you should see the OpenDosimeter home screen and firmware version. There are 
+<img width="724" alt="software states" src="https://github.com/user-attachments/assets/c6200f90-329b-47db-9c23-d41645b06a1c">
+$\text{\color{red} is this a good section to add? not in OGD}$
+
+### Calibrating the Device
+$\text{\color{red} is this a good section to add? not in OGD}$
 ### Data Log
 $\text{\color{red} Add link to data log once website live}$
+
+
+
+
+
+
 
