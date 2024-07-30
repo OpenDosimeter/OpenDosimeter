@@ -33,6 +33,10 @@ This software folder contains a precompiled file for simplest set up, and the ar
 [![OpenDosimeter Device Overview](https://img.youtube.com/vi/nXH3Gc72z8Y/0.jpg)](https://www.youtube.com/watch?v=nXH3Gc72z8Y)
 
 
+<a href="https://www.youtube.com/watch?v=nXH3Gc72z8Y" target="_blank">
+    <img src="https://img.youtube.com/vi/nXH3Gc72z8Y/0.jpg" alt="OpenDosimeter Device Overview" width="480" height="360" style="border:none;">
+</a>
+
 
 Once your device is programmed, you should see the OpenDosimeter home screen and firmware version. There are 
 <img width="724" alt="software states" src="https://github.com/user-attachments/assets/c6200f90-329b-47db-9c23-d41645b06a1c">
