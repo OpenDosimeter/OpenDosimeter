@@ -39,7 +39,7 @@ This software folder contains a precompiled file for simplest set up, and the ar
 
 
 Once your device is programmed, you should see the OpenDosimeter home screen and firmware version. There are 
-<img width="724" alt="software states" src="https://github.com/user-attachments/assets/c6200f90-329b-47db-9c23-d41645b06a1c">
+<img width="1280" height="720" alt="software states" src="https://github.com/user-attachments/assets/c6200f90-329b-47db-9c23-d41645b06a1c">
 $\text{\color{red} is this a good section to add? not in OGD}$
 
 ### Calibrating the Device
