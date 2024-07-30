@@ -34,7 +34,7 @@ This software folder contains a precompiled file for simplest set up, and the ar
 
 
 <a href="https://www.youtube.com/watch?v=nXH3Gc72z8Y" target="_blank">
-    <img src="https://img.youtube.com/vi/nXH3Gc72z8Y/0.jpg" alt="OpenDosimeter Device Overview" width="1280" height="620" style="border:none;">
+    <img src="https://img.youtube.com/vi/nXH3Gc72z8Y/0.jpg" alt="OpenDosimeter Device Overview" width="1280" height="300" style="border:none;">
 </a>
 
 
