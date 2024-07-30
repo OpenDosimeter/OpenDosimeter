@@ -4,7 +4,7 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 <div align=center>
 <img width="650" alt="device-overview" src="https://github.com/user-attachments/assets/54826510-fd85-4265-87bd-19655e41ca28">
 </div>
-<br> 
+
 ## Key Features 
 - **Open-Source Design:** The hardware and software are fully open-source, enabling customization and personalization to enhance and broaden the capabilities of the dosimeter.
 - **Compact Design:** 73mm x 42mm x 23mm
@@ -15,19 +15,19 @@ Our open-source hardware and software dosimeter offers an afordable solution for
   <div align=center>
     <img width="463" alt="Cost Breakdown" src="https://github.com/user-attachments/assets/65f5abfe-b1fb-4192-8f79-10c1414b636d">
   </div>
-<br> 
+
 ## How to Make One 
 Check out the ``hardware`` for instructions to order the PCB, get the ``.stl`` files to 3D print the case, and find links to all other components. Additionally, you can find step by step instructions for assembling the device, programming and calibrating it, and a device overview over on our YouTube channel [@OpenDosimeter](https://www.youtube.com/channel/UCCUE-LeyRK8Y6H67ti1gdNA). 
-<br> 
+
 ## Working Principle 
 $\text{\color{red} If we want this section, we should create a flow chart that explains how the device works}$
-<br> 
+
 ## Hardware 
 Our hardware has been designed using EasyEDA. The ``hardware`` directory contains all the files needed and instructions for odering the board. Additionally, if you prefer to order directly from the PCB manufacturer, you can download the gerber file also located in the ``hardware`` directory. 
 <br> 
 ## Software 
 The ``software`` directory has everything you need to program your device, whether you are just looking to download the software with default settings or looking to modify the firmware and make changes to the sketch. 
-<br> 
+
 ## Troubleshooting and FAQ
 $\text{\color{red} If we want this section, we should create a REFERENCE.md to answer questions}$
 
