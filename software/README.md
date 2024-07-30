@@ -30,11 +30,8 @@ This software folder contains a precompiled file for simplest set up, and the ar
 ### Programmed Device Overview
 **A complete overview of the device is on our YouTube channel**
 
-[![OpenDosimeter Device Overview](https://img.youtube.com/vi/nXH3Gc72z8Y/0.jpg)](https://www.youtube.com/watch?v=nXH3Gc72z8Y)
-
-
 <a href="https://www.youtube.com/watch?v=nXH3Gc72z8Y" target="_blank">
-    <img src="https://img.youtube.com/vi/nXH3Gc72z8Y/0.jpg" alt="OpenDosimeter Device Overview" width="1280" height="850" style="border:none;">
+    <img  src="https://github.com/user-attachments/assets/b8d9e2cf-32de-4e3b-ae07-3a61a8f6a33e" alt="OpenDosimeter Device Overview" width="640" style="border:none;">
 </a>
 
 
