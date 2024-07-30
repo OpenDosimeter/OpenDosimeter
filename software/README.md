@@ -30,9 +30,11 @@ This software folder contains a precompiled file for simplest set up, and the ar
 ### Programmed Device Overview
 **A complete overview of the device is on our YouTube channel**
 
-<a align="center" href="https://www.youtube.com/watch?v=nXH3Gc72z8Y" target="_blank">
+<div align="center">
+<a href="https://www.youtube.com/watch?v=nXH3Gc72z8Y" target="_blank">
     <img  src="https://github.com/user-attachments/assets/b8d9e2cf-32de-4e3b-ae07-3a61a8f6a33e" alt="OpenDosimeter Device Overview" width="640" style="border:none;">
 </a>
+</div>
 
 
 Once your device is programmed, you should see the OpenDosimeter home screen and firmware version. There are 
