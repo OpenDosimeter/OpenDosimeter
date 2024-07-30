@@ -50,10 +50,8 @@ $\text{\color{red} is this a good section to add? not in OGD}$
     <img  src="https://github.com/user-attachments/assets/e5be1f51-4546-4f0d-8dd3-b335cabdabfa" alt="OpenDosimeter Calibration" width="540" target="_blank" style="border:none; ">
 </a>
 </div>
-</br>
-
-
 $\text{\color{red} is this a good section to add? not in OGD}$
+
 ### Data Log
 $\text{\color{red} Add link to data log once website live}$
 
