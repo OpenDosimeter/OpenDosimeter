@@ -14,7 +14,9 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 - **Real-time:** Instantly read out radiation exposure levels, eliminating the need for specialized read-out facilities, pre-existing infrastructure, and monthly subscription fees (e.g., for OSL or TLD badges).
 - **Affordable:** With a price point around $90, the device is a low-cost option to democratize access to radiation safety.
   <div align=center>
-    <img width="463" caption="Device cost with quantity of 15" alt="Cost Breakdown" src="https://github.com/user-attachments/assets/65f5abfe-b1fb-4192-8f79-10c1414b636d">
+    <img width="463"  alt="Cost Breakdown" src="https://github.com/user-attachments/assets/65f5abfe-b1fb-4192-8f79-10c1414b636d">
+    </br>
+    Device cost with quantity of 15
   </div>
 
 ## How to Make One 
