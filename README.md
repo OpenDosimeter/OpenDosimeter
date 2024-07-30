@@ -6,13 +6,13 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 </div>
 
 ## Key Features 
-- **Open-Source Design:** The hardware and software are fully open-source, enabling customization and personalization to enhance and broaden the capabilities of the dosimeter.
+- **Open-Source Design:** The hardware and software are fully open-source, enabling customization and personalization to enhance and broaden the capabilities of the dosimeter
 - **Compact Design:** 73mm x 42mm x 23mm
 - **Easily Programmable:** Drag and drop firmware files
 - **Buzzer:** Built in buzzer allows for optional audible warnings when radiation exposure exceeds predefined limit (default off)
-- **Locally Calibratible:**
-- **Real-time:** Instantly read out radiation exposure levels, eliminating the need for specialized read-out facilities, pre-existing infrastructure, and monthly subscription fees (e.g., for OSL or TLD badges).
-- **Affordable:** With a price point around $90, the device is a low-cost option to democratize access to radiation safety.
+- **Local Calibration:** Using Am-241 from an ionization household smoke detector, the device can be calibrated for accurate dose calculations
+- **Real-time:** Instantly read out radiation exposure levels, eliminating the need for specialized read-out facilities, pre-existing infrastructure, and monthly subscription fees (e.g., for OSL or TLD badges)
+- **Affordable:** With a price point around $90, the device is a low-cost option to democratize access to radiation safety
   <div align=center>
     <img width="463"  alt="Cost Breakdown" src="https://github.com/user-attachments/assets/65f5abfe-b1fb-4192-8f79-10c1414b636d">
     </br>
