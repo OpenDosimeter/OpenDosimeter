@@ -42,9 +42,9 @@ $\text{\color{red} Fill this in}$
 ### Optical Couplant
 Applying optical couplant between the scintilattor crystal and SiPM will allow efficient photon detection and reduce reflections. Many options will work, we recommend the following 
 
-| Description            | Brand  | Reflective Index | Viscosity (cPs)| Cost (USD) | Comment |
-|------------------------|--------|------------------|----------------|------------|---------|
-|Molykote Industrial 4 Electrical Insulating Compound | Dow Corning | N/A | Grease | ~$20 | We use this brand for assembly. |
+| Description            | Brand  | Viscosity (cPs)| Cost (USD) | Comment |
+|------------------------|--------|------------|---------|
+|Molykote Industrial 4 Electrical Insulating Compound | Dow Corning | Grease | ~$20 | We use this brand for assembly. |
 
 
 $\text{\color{red} Add more rows to the table of recomendations}$
