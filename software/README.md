@@ -38,7 +38,7 @@ This software folder contains a precompiled file for simplest set up, and the ar
 </br>
 Once your device is programmed, you should see the OpenDosimeter home screen and firmware version. Below is a flowchart that shows how you can use the side button to navigate between the different programmed states. 
 <div align="center">
-<img width="500" alt="software states" src="https://github.com/user-attachments/assets/c6200f90-329b-47db-9c23-d41645b06a1c">
+<img width="650" alt="software states" src="https://github.com/user-attachments/assets/c6200f90-329b-47db-9c23-d41645b06a1c">
 </div>
 $\text{\color{red} is this a good section to add? not in OGD}$
 
