@@ -31,7 +31,8 @@ The ``software`` directory has everything you need to program your device, wheth
 ## Troubleshooting and FAQ
 $\text{\color{red} If we want this section, we should create a REFERENCE.md to answer questions}$
 
-$\text{\color{red} If we want this section, we should create a flow chart that explains how the device works}$
 ## Known Limitations 
 1. The power switch is fragile and can easily be broken if pressed too hard. Future iterations of the hardware could feature a power button similar to the side button which would increase the durability and longevity of the device.
+
+$\text{\color{red} 2. Other limitations}$
 
