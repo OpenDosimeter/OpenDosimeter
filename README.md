@@ -24,7 +24,7 @@ Check out the ``hardware`` for instructions to order the PCB, get the ``.stl`` f
 <span style="color: red;">If we want this section, we should create a flow chart that explains how the device works</span>
 
 ## Hardware 
-Our hardware has been designed using EasyEDA. The ``hardware`` folder contains all the files needed and instructions for odering the board. Additionally, if you prefer to order directly from the PCB manufacturer, you can download the gerber file also located in the ``(hardware)[https://github.com/OpenDosimeter/OpenDosimeter/tree/main/hardware]`` folder. 
+Our hardware has been designed using EasyEDA. The ``hardware`` folder contains all the files needed and instructions for odering the board. Additionally, if you prefer to order directly from the PCB manufacturer, you can download the gerber file also located in the (``hardware``)[https://github.com/OpenDosimeter/OpenDosimeter/tree/main/hardware] folder. 
 ## Software 
 
 ## Troubleshooting and FAQ
