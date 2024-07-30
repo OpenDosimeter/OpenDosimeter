@@ -35,7 +35,7 @@ This software folder contains a precompiled file for simplest set up, and the ar
     <img  src="https://github.com/user-attachments/assets/b8d9e2cf-32de-4e3b-ae07-3a61a8f6a33e" alt="OpenDosimeter Device Overview" width="540" target="_blank" style="border:none;">
 </a>
 </div>
-</br>
+
 Once your device is programmed, you should see the OpenDosimeter home screen and firmware version. Below is a flowchart that shows how you can use the side button to navigate between the different programmed states. 
 <div align="center">
 <img width="700" alt="software states" src="https://github.com/user-attachments/assets/c6200f90-329b-47db-9c23-d41645b06a1c">
@@ -50,6 +50,8 @@ $\text{\color{red} not in OGD, good section addition maybe}$
     <img  src="https://github.com/user-attachments/assets/e5be1f51-4546-4f0d-8dd3-b335cabdabfa" alt="OpenDosimeter Calibration" width="540" target="_blank" style="border:none; ">
 </a>
 </div>
+
+
 $\text{\color{red} not in OGD, good section addition maybe}$
 
 ### Data Log
