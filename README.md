@@ -12,11 +12,13 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 - **Easily Programmable:** Drag and drop firmware files
 - **Real-time:** Instantly read out radiation exposure levels, eliminating the need for specialized read-out facilities, pre-existing infrastructure, and monthly subscription fees.
 - **Affordable:** With a price point around $90, the device is a low-cost option to democratize access to radiation safety.
+- **Buzzer:** Built in buzzer allows for audible warnings when radiation exposure becomes unsage
   <div align=center>
     <img width="463" alt="Cost Breakdown" src="https://github.com/user-attachments/assets/65f5abfe-b1fb-4192-8f79-10c1414b636d">
   </div>
 
-## How to Get One 
+## How to Make One 
+Check out the [hardware folder](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/hardware) for instructions to order the PCB, get the ``.stl`` files to 3D print the case, and find links to all other components. Additionally, you can find step by step instructions for assembling the device, programming and calibrating it, and a device overview over on our YouTube channel [@OpenDosimeter](https://www.youtube.com/channel/UCCUE-LeyRK8Y6H67ti1gdNA). 
 
 ## Working Principle 
 
