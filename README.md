@@ -2,11 +2,8 @@
 
 Our open-source hardware and software dosimeter offers an afordable solution for real-time, self-monitored radiation exposure. With a total component cost of roughly $90, this device provides an accessible option for radiation monitoring to promote broad access to radiation safety.
 <div align=center>
-<img width="500" alt="device-overview" src="https://github.com/user-attachments/assets/2c953f12-2e8e-4769-899f-a14eeb83f2f3">
+<img width="500" alt="Complete cased device" src="https://github.com/user-attachments/assets/2c953f12-2e8e-4769-899f-a14eeb83f2f3">
 </div>
-
-
-
 
 ## Key Features 
 - **Open-Source Design:** The hardware and software are fully open-source, enabling customization and personalization to enhance and broaden the capabilities of the dosimeter
@@ -23,6 +20,8 @@ Our open-source hardware and software dosimeter offers an afordable solution for
   </div>
 
 ## How to Make One 
+[hardware](/tree/main/hardware)
+
 Check out the ``hardware`` for instructions to order the PCB, get the ``.stl`` files to 3D print the case, and find links to all other components. Additionally, you can find step by step instructions for assembling the device, programming and calibrating it, and a device overview over on our YouTube channel [@OpenDosimeter](https://www.youtube.com/channel/UCCUE-LeyRK8Y6H67ti1gdNA). 
 
 ## Working Principle 
