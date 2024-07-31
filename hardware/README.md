@@ -35,7 +35,7 @@ Follow these steps to order the OpenDosimeter board:
     - Add to cart and checkout
 
 ### 3D Printed Case 
-We have designed 3D-printable cases for OpenDosimeter with different styles. Each case has two parts, a top and bottom. The .stl files can be found in the [case](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/case) folder.
+We have designed 3D-printable cases for OpenDosimeter with different styles. Each case has two parts, a top and bottom. The ``.stl`` files can be found in the [case](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/case) folder.
 
 ### Table of Materials
 Here are all of the required components and tools for assembly. Also included is the purpose, specification details, cost, and links to purchase each component. 
