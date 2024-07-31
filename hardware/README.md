@@ -47,7 +47,6 @@ Applying optical couplant between the scintilattor crystal and SiPM will allow e
 | Component            | Purpose  | Specification| Cost (USD) | Where to buy (example) |
 |------------------------|--------|------------------|------------|---------|
 |OpenDosimeter custom PCB| Main Board  |  | $20 |Directly from PCB manufacturer |
-|Battery | Power  |  | $10 |Directly from PCB manufacturer |
 |Battery  | Power | | $10 |[1200 mAh Lipo battery](https://www.digikey.com/en/products/detail/adafruit-industries-llc/258/5054544) |
 
 
