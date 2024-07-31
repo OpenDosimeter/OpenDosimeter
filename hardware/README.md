@@ -46,8 +46,7 @@ Applying optical couplant between the scintilattor crystal and SiPM will allow e
 
 | Component            | Purpose  | Specification| Cost (USD) | Where to buy (example) |
 |------------------------|--------|------------------|------------|---------|
-|OpenDOsimeter custom PCB| Main Board  |  | $20 |Directly from PCB manufacturer |
-
+|OpenDosimeter custom PCB| Main Board  |  | $20 |Directly from PCB manufacturer |
 |Optical Couplant | Improving light coupling and adhesion between LYSO crystal and the SiPM  |  | ~$33 | [Amazon, MOLYKOTE 4 Electrical Insulating Compound](https://www.amazon.com/Dow-Corning-Electrical-Insulating-Compound/dp/B0195UWAHG/ref=sr_1_1?crid=1FDS4YSQBHPVO&dib=eyJ2IjoiMSJ9.gfqP0gv9GKU1J2V8zgA0DIDlFhblCyriWhmx9rixKP4DlPxaEkgcBvgK9pTtv9ylH2qXpEG7Q0Jr_dqlBQAYybvFcqWoDgZY5-vvUUvg9PZ8B5LmGmroxZlqPYVmTveAXmyWjn8t2abIkMnV_ef1-QQflucTbNi13fpyZnEI9CO0lSYM9HJYMK2EkayUmpfo-NmrVb7GUy98wMPoeMR1yX3z4wpON1PGkZhy6cWraXs.iPNCpVDAOINZHw5AYk9FiJiEVbZVzLLVk0iQbdBasXg&dib_tag=se&keywords=molykote+4+electrical+insulating+compound&qid=1722446595&sprefix=molykote+in%2Caps%2C131&sr=8-1) |
 
 
