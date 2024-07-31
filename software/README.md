@@ -29,7 +29,7 @@ $\text{\color{red} Programming Video Coming Soon!}$
     - Keep remaining settings at default values
     - Press the ``Upload`` button
 
-### Step 2: Calibrating the Device
+## Step 2: Calibrating the Device
 **A step-by-step guide to calibrating the device is on our YouTube channel**
 <div align="center">
 <a href="https://www.youtube.com/watch?v=btqXVTFHygs" target="_blank">
