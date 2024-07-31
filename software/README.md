@@ -78,7 +78,7 @@ Once your device is programmed, you should see the OpenDosimeter home screen and
 </div>
 
 
-### Data Log
+## Data Log
 $\text{\color{red} Link to Data Log Coming Soon!}$
 
 
