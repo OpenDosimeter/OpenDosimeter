@@ -62,7 +62,7 @@ Program the Device
 
 
 
-### Step 3: Programmed Device Overview
+## Step 3: Programmed Device Overview
 **A complete overview of the device is on our YouTube channel**
 
 <div align="center">
