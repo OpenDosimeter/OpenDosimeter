@@ -14,6 +14,11 @@ $\text{\color{red} Programming Video Coming Soon!}$
 **Here's how you can modify the provided code**
 1. Download ArduinoIDE
 2. Download Arduino-Pico so your computer recognizes the Raspberry Pi Pico
+   - Open Arduino --> ``Settings/Preferences`` --> ``Additional Board Managers URL``
+   - Add this link: https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
+   - Press ``OK``
+   - Go to ``Board Manager``
+   - Search for "Raspberry Pico" and install ``Raspberry Pi Pico/RP2040 by Earle F. Phillhower, III``
 3. Download the folder [OpenDosimeter_ino](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/software/OpenDosimeter_ino)
 4. Open the file ``OpenDosimeter_ino.ino`` to open the code in ArduinoIDE
 5. Use the Library Manager (``tools`` --> ``library manager)`` to download the following dependency packages
