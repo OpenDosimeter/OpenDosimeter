@@ -24,7 +24,7 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 Check out the ``hardware`` for instructions to order the PCB, get the ``.stl`` files to 3D print the case, and find links to all other components. Additionally, you can find step by step instructions for assembling the device, programming and calibrating it, and a device overview over on our YouTube channel [@OpenDosimeter](https://www.youtube.com/channel/UCCUE-LeyRK8Y6H67ti1gdNA). 
 
 ## Working Principle 
-$\text{\color{red} If we want this section, we should create a flow chart that explains how the device works}$
+$\text{\color{red} Flowchart coming soon}$
 
 ## Hardware 
 Our hardware has been designed using EasyEDA. The ``hardware`` directory contains all the files needed and instructions for odering the board. Additionally, if you prefer to order directly from the PCB manufacturer, you can download the gerber file also located in the ``hardware`` directory. 
