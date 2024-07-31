@@ -10,27 +10,34 @@ This software folder contains a precompiled file for simplest set up, and the ar
    
 $\text{\color{red} Programming Video Coming Soon!}$
 
-### Option 2: Modifying the Code in ArduinoIDE
+### Option 2: Uploading Using ArduinoIDE
 **Here's how you can modify the provided code**
-1. Download ArduinoIDE
-2. Download Arduino-Pico so your computer recognizes the Raspberry Pi Pico
+Set up Program Environment
+1. Install ArduinoIDE
+2. Install Raspberry Pi Pico Board in the ArduinoIDE
    - Open Arduino --> ``Settings/Preferences`` --> ``Additional Board Managers URL``
    - Add this link: https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
    - Press ``OK``
    - Go to ``Board Manager``
    - Search for "Raspberry Pico" and install ``Raspberry Pi Pico/RP2040 by Earle F. Phillhower, III``
-3. Download the folder [OpenDosimeter_ino](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/software/OpenDosimeter_ino)
-4. Open the file ``OpenDosimeter_ino.ino`` to open the code in ArduinoIDE
-5. Use the Library Manager (``tools`` --> ``library manager)`` to download the following dependency packages
+3. Use the Library Manager (``tools`` --> ``library manager)`` to install the following dependency packages
     - ``TaskScheduler``
     - ``SimpleShellEnhanced``
     - ``ArduinoJson``
     - ``Adafruit_SSD1306``
     - ``Adafruit_SH110X``
     - ``RunningMedian``
-6. Modify the code as desired
+Download OpenDosimeter Code
+4. Download the folder [OpenDosimeter_ino](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/software/OpenDosimeter_ino)
+5. Open the file ``OpenDosimeter_ino.ino`` to open the code in ArduinoIDE
+6. Feel free to modify the code to add new desired features
+Program the Device
 7. Flash the Pico
-    - ``Tools`` --> ``Board`` --> ``Raspberry Pi RP2040 Boards`` --> ``Flash Size: 2MB (Sketch: 1MB, FS: 1MB)``
+    - Connect Pico over USB
+    - Choose the following settings:
+       - **Board:** ``Tools`` --> ``Board`` --> ``Raspberry Pi RP2040 Boards``
+       - **Port:** ``Tools`` --> ``Port`` Select associated port 
+       - **Flash Size:** ``Tools`` --> ``Flash Size: 2MB (Sketch: 1MB, FS: 1MB)``
     - Keep remaining settings at default values
     - Press the ``Upload`` button
 
