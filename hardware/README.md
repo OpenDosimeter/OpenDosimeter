@@ -35,13 +35,8 @@ Follow these steps to order the OpenDosimeter board:
 
 ### 3D Printed Case 
 We have designed 3D-printable cases for OpenDosimeter with different styles. Each case has two parts, a top and bottom. The .stl files can be found in the [case](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/case) folder.
-### Scintillator Crystals 
-$\text{\color{red} Link to brand and location of LYSO crystals we recommend using}$
 
-### SiPM (Silicon Photomultipier)
-$\text{\color{red} Fill this in}$
-
-### Optical Couplant
+### Table of Materials
 Applying optical couplant between the scintilattor crystal and SiPM will allow efficient photon detection and reduce reflections. Many options will work, we recommend the following 
 
 | Component            | Purpose  | Specification| Cost (USD) | Where to buy (example) |
