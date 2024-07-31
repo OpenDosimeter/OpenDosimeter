@@ -3,6 +3,7 @@ Our design leverages a cusom OpenDosimeter board, LYSO scintillation crystal and
 <div align=center>
 <img width="600" alt="board-overview" src="https://github.com/user-attachments/assets/4594c9e4-8149-4a25-a02a-83c2b1c2eb5e">
 </div>
+
 ## Components
 
 ### OpenDosimeter PCB
