@@ -45,6 +45,7 @@ $\text{\color{red} Programming Video Coming Soon!}$
     - You should see two peaks forming
     - Keep Am-241 in place until calibration is complete (~1 minute)
 6. Your device should say ``Calibrating...Done``
+
 **For troubleshooting, checkout the [REFERENCE.md](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/REFERENCE.md)**
 
 
