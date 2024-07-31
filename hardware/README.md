@@ -13,23 +13,23 @@ Follow these steps to order the OpenDosimeter board:
 2. **Open in EasyEDA**
     - Go to easyeda.com
     - Log in or create an account
-    - Click the "Design Online"
-    - Click "Std Edition"
-    - Click "New Project" and give it a title
+    - Click ``Design Online``
+    - Click ``Std Edition``
+    - Click ``New Project`` and give it a title
     - Drag and drop both the PCB and SCH files into EasyEDA
 
       | Schematic |<img width="700" alt="Image of Schematic File" src="https://github.com/user-attachments/assets/e582a008-7870-41ae-bcdd-088169dfb7a5">|
       |---------------------------------------------|--------------------------------------------------------------------------------------|
       | **PCB** |<img width="700" alt="Image of PCB File" src="https://github.com/user-attachments/assets/ce661b25-9531-46c1-96a8-eccab1b3691f"> |
 
-    - File --> Save or CMD + s to save both files to the project you created
-    - On the PCB file, click Fabrication --> One Click Order PCB/SMT --> Yes, Check DCR --> One Click Order --> OK
+    - ``File`` --> ``Save`` or ``CMD + s`` to save both files to the project you created
+    - On the PCB file, click ``Fabrication`` --> ``One Click Order PCB/SMT`` --> ``Yes, Check DCR`` --> ``One Click Order`` --> ``OK``
 3. **Open in JLCPCB**
     - Once redirected to JLCPCB, log in or create an account
     - Select quantity of PCB
     - Recomended: Select LeadFree HSL
     - Select PCB Assembly
-    - Confirm --> Next --> Next --> OK
+    - ``Confirm`` --> ``Next`` --> ``Next`` --> ``OK``
     - Select a product description from drop down
     - Add to cart and checkout
 
