@@ -32,7 +32,7 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 Additionally, if you prefer to order directly from the PCB manufacturer, you can download the gerber file also located in the ``hardware`` directory. 
 
 
-**[@OpenDosimeter](https://www.youtube.com/channel/UCCUE-LeyRK8Y6H67ti1gdNA):** Finally, head over to our YouTube channel for instructional manuals on ordering the PCB, assembly, programming, and calibrating the device.
+**[@OpenDosimeter](https://www.youtube.com/channel/UCCUE-LeyRK8Y6H67ti1gdNA):** Finally, head over to our YouTube channel for instructional manuals on ordering the PCB, assembling, programming, and calibrating the device.
 
 ## Working Principle 
 $\text{\color{red} Flowchart of device principle coming soon}$
