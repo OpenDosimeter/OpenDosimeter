@@ -5,6 +5,8 @@
 #### Calibration/Device Settings are Not Saved 
 This is likely due to not allocating any memory for the file system. When you flash the Pico, be sure that you have selected the following setting: ``Boards`` --> ``Flash Size: 2MB (Sketch: 1MB, FS: 1MB)`` so the Pico has memory allocated for the file system. 
 
+#### Calibration is failing 
+
 
 ## FAQ 
 
