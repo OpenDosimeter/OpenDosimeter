@@ -51,7 +51,6 @@ Applying optical couplant between the scintilattor crystal and SiPM will allow e
 |Display| Displaying dose values to user |128x64 pixels, I2C, SSD1306 | $5 | [Amazon, 128x64 pixels, I2C, SSD1306](https://www.amazon.com/Teyleten-Robot-Display-SSD1306-Raspberry/dp/B0CN373JF4/ref=sr_1_4?crid=2FMQS7B2IFQAD&dib=eyJ2IjoiMSJ9.l-FK2pxw8wWhZ_wtkFb4O1fyrXLIhGQ52dk_-yA7h6FWtEW-CW5RA7_9w5hhpIE9lSkkBIurGV3JAYvQS695jjQR0VVPaO92fd4QVHkD4CTCp4bQsF8CrU8NM0aMPuOZ8RjYMbesVbpG_UDMbMGqyALbXdphIb0nHzBxKLcVF0Pm0UNgyMb1CITVfuh6bqspsPWljCJVLda51Ct931b4NpiFFhTkOtDTzaaWjYwOTCTaZgTjvpziUI1kPpnvJCXBBrgzoC6xlvPtjO4YGGF54xkeJpWnkoouL7rm1iE_GsA.JpSEJVJP5Itir15xcqstihVBHkHDpMhWXXJUSeBi6w4&dib_tag=se&keywords=i2c+128x64+oled+display&qid=1717603122&s=electronics&sprefix=i2c+128x64+oled+sipl%2Celectronics%2C134&sr=1-4) |
 |Raspberry Pi Pico| Microcontroller for programming |Regular version with no headers | $4 | [Raspberry Pico](https://www.digikey.com/en/products/detail/raspberry-pi/SC0915/13684020) |
 |SiPM| Visible light sensor |6 mm model (MICROFC-60035-SMT-TR) | $33 | [MICROFC-60035-SMT-TR onsemi](https://www.digikey.com/en/products/detail/onsemi/MICROFC-60035-SMT-TR/9742618) |
-
 |Plastic tweezer| Handling LYSO and SiPM without scratching it | | $5 | |
 
 
