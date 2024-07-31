@@ -20,28 +20,28 @@ Our open-source hardware and software dosimeter offers an afordable solution for
   </div>
 
 ## How to Make One 
-**This repository has everything you need to create your own OpenDosimeter** 
-**[Case](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/case)**
-**[Docs](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/docs)**
-**[Software](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/software)**
-**[Hardware](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/hardware)**
+**This repository has everything you need to create your own OpenDosimeter, below is an explanation of the repository structure:** 
+**[Case](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/case):** Use this directory to 3D print the case. It contains two sets of ``.stl`` files that can be downloaded to print top and bottom components for a case with and without a belt clip. 
 
-Check out the ``hardware`` for instructions to order the PCB, get the ``.stl`` files to 3D print the case, and find links to all other components. Additionally, you can find step by step instructions for assembling the device, programming and calibrating it, and a device overview over on our YouTube channel [@OpenDosimeter](https://www.youtube.com/channel/UCCUE-LeyRK8Y6H67ti1gdNA). 
+**[Docs](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/docs):** This is where you can find the reference images used throughout this repository. 
+
+**[Software](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/software):** The software directory has everything you need to program your device, whether you are just looking to download the software with default settings or looking to modify the firmware and make changes to the sketch.  After programming your device, you will be guided through local calibration of your device and an overview of how to use it. 
+
+**[Hardware](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/hardware):** Check out the hardware directory to see the OpenDosimeter board layout in EasyEDA and instructions for ordering it using JLCPCB. This directory contains a breakdown of each component required to assemble the hardware with prices and links to order parts. Furthermore, this is where you can find instructions to assemble your device. 
+Additionally, if you prefer to order directly from the PCB manufacturer, you can download the gerber file also located in the ``hardware`` directory. 
+
+ [@OpenDosimeter](https://www.youtube.com/channel/UCCUE-LeyRK8Y6H67ti1gdNA). 
 
 ## Working Principle 
-$\text{\color{red} Flowchart coming soon}$
-
-## Hardware 
-Our hardware has been designed using EasyEDA. The ``hardware`` directory contains all the files needed and instructions for odering the board. Additionally, if you prefer to order directly from the PCB manufacturer, you can download the gerber file also located in the ``hardware`` directory. 
-<br> 
-## Software 
-The ``software`` directory has everything you need to program your device, whether you are just looking to download the software with default settings or looking to modify the firmware and make changes to the sketch. 
+$\text{\color{red} Flowchart of device principle coming soon}$
 
 ## Troubleshooting and FAQ
-$\text{\color{red} If we want this section, we should create a REFERENCE.md to answer questions}$
+Refer to [REFERENCE.md](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/REFERENCE.md) for troubleshooting support and guidance in debugging.
 
-## Known Limitations 
+## Future Improvements
 1. The power switch is fragile and can easily be broken if pressed too hard. Future iterations of the hardware could feature a power button similar to the side button which would increase the durability and longevity of the device.
+2. In order to make an even more integrated and compact design, the RP2040 chip from the Raspberry Pi Pico could be incorporated in the OpenDosimeter board. 
 
-$\text{\color{red} 2. Other limitations}$
+## Acknowledgements
+Our device is inspired by the [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector/tree/main)
 
