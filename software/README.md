@@ -57,7 +57,7 @@ $\text{\color{red} Programming Video Coming Soon!}$
 <a href="https://www.youtube.com/watch?v=nXH3Gc72z8Y" target="_blank">
     <img  src="https://github.com/user-attachments/assets/b8d9e2cf-32de-4e3b-ae07-3a61a8f6a33e" alt="OpenDosimeter Device Overview" width="540" target="_blank" style="border:none;">
 </a>
-</div>e
+</div>
 
 Once your device is programmed, you should see the OpenDosimeter home screen and firmware version. Below is a flowchart that shows how you can use the side button to navigate between the different programmed states. 
 <div align="center">
