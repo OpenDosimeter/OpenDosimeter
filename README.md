@@ -20,7 +20,10 @@ Our open-source hardware and software dosimeter offers an afordable solution for
   </div>
 
 ## How to Make One 
-[hardware](/tree/main/hardware)
+**This repository has everything you need to create your own OpenDosimeter** 
+
+
+**[hardware](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/hardware)**
 
 Check out the ``hardware`` for instructions to order the PCB, get the ``.stl`` files to 3D print the case, and find links to all other components. Additionally, you can find step by step instructions for assembling the device, programming and calibrating it, and a device overview over on our YouTube channel [@OpenDosimeter](https://www.youtube.com/channel/UCCUE-LeyRK8Y6H67ti1gdNA). 
 
