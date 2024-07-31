@@ -1,4 +1,5 @@
 # Hardware
+The core of our hardware is the custom OpenDosimeter board. 
 <div align=center>
 <img width="600" alt="board-overview" src="https://github.com/user-attachments/assets/4594c9e4-8149-4a25-a02a-83c2b1c2eb5e">
 </div>
