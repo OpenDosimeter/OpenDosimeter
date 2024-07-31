@@ -27,9 +27,9 @@ Follow these steps to order the OpenDosimeter board:
     - On the PCB file, click ``Fabrication`` --> ``One Click Order PCB/SMT`` --> ``Yes, Check DCR`` --> ``One Click Order`` --> ``OK``
 3. **Open in JLCPCB**
     - Once redirected to JLCPCB, log in or create an account
-    - Select quantity of PCB
-    - Recomended: Select LeadFree HSL
-    - Select PCB Assembly
+    - Choose quantity of PCB
+    - Recomended: ``Select LeadFree HSL``
+    - Select ``PCB Assembly``
     - ``Confirm`` --> ``Next`` --> ``Next`` --> ``OK``
     - Select a product description from drop down
     - Add to cart and checkout
@@ -38,8 +38,7 @@ Follow these steps to order the OpenDosimeter board:
 We have designed 3D-printable cases for OpenDosimeter with different styles. Each case has two parts, a top and bottom. The .stl files can be found in the [case](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/case) folder.
 
 ### Table of Materials
-Applying optical couplant between the scintilattor crystal and SiPM will allow efficient photon detection and reduce reflections. Many options will work, we recommend the following 
-
+Here are all of the required components and tools for assembly. Also included is the purpose, specification details, cost, and links to purchase each component. 
 | Component            | Purpose  | Specification| Cost (USD) | Where to buy (example) |
 |------------------------|--------|------------------|------------|---------|
 |OpenDosimeter custom PCB| Main Board  |  | $20 |Directly from PCB manufacturer |
@@ -53,6 +52,9 @@ Applying optical couplant between the scintilattor crystal and SiPM will allow e
 |Optical Couplant | Improving light coupling and adhesion between LYSO crystal and the SiPM  |  | ~$33 | [Amazon, MOLYKOTE 4 Electrical Insulating Compound](https://www.amazon.com/Dow-Corning-Electrical-Insulating-Compound/dp/B0195UWAHG/ref=sr_1_1?crid=1FDS4YSQBHPVO&dib=eyJ2IjoiMSJ9.gfqP0gv9GKU1J2V8zgA0DIDlFhblCyriWhmx9rixKP4DlPxaEkgcBvgK9pTtv9ylH2qXpEG7Q0Jr_dqlBQAYybvFcqWoDgZY5-vvUUvg9PZ8B5LmGmroxZlqPYVmTveAXmyWjn8t2abIkMnV_ef1-QQflucTbNi13fpyZnEI9CO0lSYM9HJYMK2EkayUmpfo-NmrVb7GUy98wMPoeMR1yX3z4wpON1PGkZhy6cWraXs.iPNCpVDAOINZHw5AYk9FiJiEVbZVzLLVk0iQbdBasXg&dib_tag=se&keywords=molykote+4+electrical+insulating+compound&qid=1722446595&sprefix=molykote+in%2Caps%2C131&sr=8-1) |
 |Total |  |  | $164 | |
 
+**Note on Cost**
+- Price on OpenDosimeter board decreases substantially the larger quantity you order
+- Device assembly only requires small amounts of Electrical Tape, Aluminum Tape, and Optical Couplant, thus the total cost is inflated by their initial purchase.
 
 
 
