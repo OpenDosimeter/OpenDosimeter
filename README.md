@@ -16,11 +16,12 @@ Our open-source hardware and software dosimeter offers an afordable solution for
   <div align=center>
     <img width="463"  alt="Cost Breakdown" src="https://github.com/user-attachments/assets/65f5abfe-b1fb-4192-8f79-10c1414b636d">
     </br>
-    Device cost with quantity of 15
+    Device cost (quantity of 15)
   </div>
 
 ## How to Make One 
 **This repository has everything you need to create your own OpenDosimeter, below is an explanation of the repository structure:** 
+
 **[Case](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/case):** Use this directory to 3D print the case. It contains two sets of ``.stl`` files that can be downloaded to print top and bottom components for a case with and without a belt clip. 
 
 **[Docs](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/docs):** This is where you can find the reference images used throughout this repository. 
