@@ -17,7 +17,7 @@ Follow these steps to order the OpenDosimeter board:
     - Click ``Design Online``
     - Click ``Std Edition``
     - Click ``New Project`` and give it a title
-    - Drag and drop both the PCB and SCH files into EasyEDA
+    - Drag and drop both the ``PCB`` and ``SCH`` files into EasyEDA
 
       | Schematic |<img width="700" alt="Image of Schematic File" src="https://github.com/user-attachments/assets/e582a008-7870-41ae-bcdd-088169dfb7a5">|
       |---------------------------------------------|--------------------------------------------------------------------------------------|
