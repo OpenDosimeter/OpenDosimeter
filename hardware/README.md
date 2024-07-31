@@ -1,9 +1,8 @@
 # Hardware
-The core of our hardware is the custom OpenDosimeter board. 
+Our design leverages a cusom OpenDosimeter board, LYSO scintillation crystal and SiPM (silicon photomultiplier). The figure below outlines key features of the OpenDosimeter board that is essential to the hardware design. 
 <div align=center>
 <img width="600" alt="board-overview" src="https://github.com/user-attachments/assets/4594c9e4-8149-4a25-a02a-83c2b1c2eb5e">
 </div>
-This hardware folder contains the schematic and PCB design files needed to manufacture the OpenDosimeter board. Our design leverages a LYSO scintillation crystal and SiPM (silicon photomultiplier). 
 ## Components
 
 ### OpenDosimeter PCB
