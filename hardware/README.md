@@ -41,7 +41,7 @@ We have designed 3D-printable cases for OpenDosimeter with different styles. Eac
 Here are all of the required components and tools for assembly. Also included is the purpose, specification details, cost, and links to purchase each component. 
 | Component            | Purpose  | Specification| Cost (USD) | Where to buy (example) |
 |------------------------|--------|------------------|------------|---------|
-|OpenDosimeter custom PCB| Main Board  |  | $20 |Directly from PCB manufacturer |
+|OpenDosimeter Custom PCB| Main Board  | | $20 |Directly from PCB manufacturer |
 |Battery  | Power |LiPo protected battery, ideally >1200 mAh, size around 34mm L x 62mm W x 5mm H | $10 |[1200 mAh Lipo battery](https://www.digikey.com/en/products/detail/adafruit-industries-llc/258/5054544) |
 |Display| Displaying dose values to user |128x64 pixels, I2C, SSD1306 | $5 | [Amazon, 128x64 pixels, I2C, SSD1306](https://www.amazon.com/Teyleten-Robot-Display-SSD1306-Raspberry/dp/B0CN373JF4/ref=sr_1_4?crid=2FMQS7B2IFQAD&dib=eyJ2IjoiMSJ9.l-FK2pxw8wWhZ_wtkFb4O1fyrXLIhGQ52dk_-yA7h6FWtEW-CW5RA7_9w5hhpIE9lSkkBIurGV3JAYvQS695jjQR0VVPaO92fd4QVHkD4CTCp4bQsF8CrU8NM0aMPuOZ8RjYMbesVbpG_UDMbMGqyALbXdphIb0nHzBxKLcVF0Pm0UNgyMb1CITVfuh6bqspsPWljCJVLda51Ct931b4NpiFFhTkOtDTzaaWjYwOTCTaZgTjvpziUI1kPpnvJCXBBrgzoC6xlvPtjO4YGGF54xkeJpWnkoouL7rm1iE_GsA.JpSEJVJP5Itir15xcqstihVBHkHDpMhWXXJUSeBi6w4&dib_tag=se&keywords=i2c+128x64+oled+display&qid=1717603122&s=electronics&sprefix=i2c+128x64+oled+sipl%2Celectronics%2C134&sr=1-4) |
 |Raspberry Pi Pico| Microcontroller for programming |Regular version with no headers | $4 | [Raspberry Pico](https://www.digikey.com/en/products/detail/raspberry-pi/SC0915/13684020) |
