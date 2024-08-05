@@ -50,6 +50,7 @@ Program the Device
 </div>
 
 1. Extract Am-241 from household ionization smoke detector
+    - See this [video](https://www.youtube.com/watch?v=lOWNI6bC5EM) for disassembling instructions
 2. Turn ``ON`` your assembled and programmed device
 3. ``Long Press`` side button to open Reset/Calibration menu
 4. ``Long Press`` again to begin calibration
