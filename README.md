@@ -39,10 +39,17 @@ $\text{\color{red} Flowchart of device principle coming soon}$
 
 ## Troubleshooting and FAQ
 Refer to [REFERENCE.md](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/REFERENCE.md) for troubleshooting support and guidance in debugging.
+- submitting to issues
 
 ## Future Improvements
 1. The power switch is fragile and can easily be broken if pressed too hard. Future iterations of the hardware could feature a power button similar to the side button which would increase the durability and longevity of the device.
 2. In order to make an even more integrated and compact design, the RP2040 chip from the Raspberry Pi Pico could be incorporated in the OpenDosimeter board. 
+
+## Project Team
+
+## Contributing to OpenDosimeter
+- interested in contributing to future development and support for new features openDosimeter
+- need to add section on contacting developers opendosimeter@gmail.com
 
 ## Acknowledgements
 Our device is inspired by the [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector/tree/main)
