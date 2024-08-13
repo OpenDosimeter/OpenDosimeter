@@ -37,6 +37,13 @@ Additionally, if you prefer to order directly from the PCB manufacturer, you can
 ## Working Principle 
 $\text{\color{red} Flowchart of device principle coming soon}$
 
+ <div align=center>
+    <img width="463"  alt="Flowchart of device principle" src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Flowchart.svg">
+    </br>
+  </div>
+
+
+
 ## Troubleshooting and FAQ
 Refer to [REFERENCE.md](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/REFERENCE.md) for troubleshooting support and guidance in debugging.
 - submitting to issues
