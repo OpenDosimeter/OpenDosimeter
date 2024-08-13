@@ -36,11 +36,9 @@ Additionally, if you prefer to order directly from the PCB manufacturer, you can
 
 ## Working Principle 
  <div align=center>
-    <img width="463"  alt="Flowchart of device principle" src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Flowchart.svg">
+    <img width="463"  alt="Flowchart of device principle" src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Flowchart.png">
     </br>
   </div>
-
-
 
 ## Troubleshooting and FAQ
 Refer to [REFERENCE.md](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/REFERENCE.md) for troubleshooting support and guidance in debugging.
