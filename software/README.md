@@ -49,8 +49,8 @@ Program the Device
 ## Step 2: Calibrating the Device
 **A step-by-step guide to calibrating the device is on our YouTube channel**
 <div align="center">
-<a href="https://www.youtube.com/watch?v=btqXVTFHygs" target="_blank">
-    <img  src="https://github.com/user-attachments/assets/e5be1f51-4546-4f0d-8dd3-b335cabdabfa" alt="OpenDosimeter Calibration" width="540" target="_blank" style="border:none; ">
+<a href="https://youtu.be/eI6PJFmvRmY" target="_blank">
+    <img  src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Thumbnail%204.png" alt="Calibrating Thumbnail" width="540" target="_blank" style="border:none; ">
 </a>
 </div>
 
