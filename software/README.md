@@ -53,6 +53,7 @@ Program the Device
     <img  src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Thumbnail%204.png" alt="Calibrating Thumbnail" width="540" target="_blank" style="border:none; ">
 </a>
 </div>
+</br>
 
 1. Extract Am-241 from household ionization smoke detector
     - See this [video](https://www.youtube.com/watch?v=lOWNI6bC5EM) for disassembling instructions
