@@ -68,13 +68,11 @@ Program the Device
 **For troubleshooting, checkout the [REFERENCE.md](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/REFERENCE.md)**
 
 
-
 ## Step 3: Programmed Device Overview
 **A complete overview of the device is on our YouTube channel**
-
 <div align="center">
-<a href="https://www.youtube.com/watch?v=nXH3Gc72z8Y" target="_blank">
-    <img  src="https://github.com/user-attachments/assets/b8d9e2cf-32de-4e3b-ae07-3a61a8f6a33e" alt="OpenDosimeter Device Overview" width="540" target="_blank" style="border:none;">
+<a href="https://youtu.be/77HooAmk0_8" target="_blank">
+    <img  src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Thumbnail%205.png" alt="Device Overview Thumbnail" width="540" target="_blank" style="border:none; ">
 </a>
 </div>
 </br>
