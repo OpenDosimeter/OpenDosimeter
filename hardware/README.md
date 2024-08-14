@@ -43,9 +43,6 @@ Follow these steps to order the OpenDosimeter board:
 </br>
 
 
-
-
-
 ### 3D Printed Case 
 We have designed 3D-printable cases for OpenDosimeter with different styles. Each case has two parts, a top and bottom. The ``.stl`` files can be found in the [case](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/case) folder.
 
@@ -66,6 +63,17 @@ Here are all of the required components and tools for assembly. Also included is
 **Note on Cost**
 - Price on OpenDosimeter board decreases substantially the larger quantity you order
 - Device assembly only requires small amounts of Electrical Tape, Aluminum Tape, and Optical Couplant, thus the total cost is inflated by their initial purchase.
+
+### Hardware Assembly
+
+**Follow along instructions for Hardware can be found on our YouTube**
+<div align="center">
+<a href="https://youtu.be/8zaVwqWo00o" target="_blank">
+    <img  src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Thumbnail%202.png" alt="Hardware Assembly Thumbnail" width="540" target="_blank" style="border:none;">
+</a>
+</div>
+</br>
+
 
 
 
