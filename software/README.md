@@ -8,7 +8,12 @@ This software folder contains a precompiled file for simplest set up, and the ar
 2. Use the micro-USB connection to plug the Raspberry Pi Pico into a computer
 3. When the file manager window pops up, drag the ``OpenDosimeter.uf2`` file into the directory. Your device should restart and is now ready for callibration.
    
-$\text{\color{red} Programming Video Coming Soon!}$
+**Check out our YouTube to follow-along as we program the OpenDosimeter**
+<div align="center">
+<a href="https://youtu.be/HLWoSg5BW90" target="_blank">
+    <img  src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Thumbnail%203.png" alt="Programming Thumbnail" width="540" target="_blank" style="border:none; ">
+</a>
+</div>
 
 ### Option 2: Uploading Using ArduinoIDE
 **Here's how you can modify the provided code**
