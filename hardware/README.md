@@ -37,10 +37,12 @@ Follow these steps to order the OpenDosimeter board:
 **A complete tutorial for ordering the OpenDosimeter Board is on our YouTube**
 <div align="center">
 <a href="https://youtu.be/UWabvXynp9I" target="_blank">
-    <img  src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Thumnail%201.png" alt="Ordering OpenDosimeter Board Thumbnail" width="540" target="_blank" style="border:none;">
+    <img  src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Thumbnail%201.png" alt="Ordering OpenDosimeter Board Thumbnail" width="540" target="_blank" style="border:none;">
 </a>
 </div>
 </br>
+
+
 
 
 
