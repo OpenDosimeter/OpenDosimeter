@@ -35,9 +35,10 @@ Additionally, if you prefer to order directly from the PCB manufacturer, you can
 **[@OpenDosimeter](https://www.youtube.com/channel/UCCUE-LeyRK8Y6H67ti1gdNA):** Finally, head over to our YouTube channel for instructional manuals on ordering the PCB, assembling, programming, and calibrating the device.
 
 ## Working Principle 
- <div align=center>
-    <img width="463"  alt="Flowchart of device principle" src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Flowchart.png">
+ <div align=left>
+    <img width="600"  alt="Flowchart of device principle" src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Flowchart.png">
     </br>
+   This high-level flow chart illustrates device operation, using grey boxes to represent hardware components and orange boxes to indicate software functionality. The current software version (1.0) implements photon-counting capabilities. A parallel energy-integrating component is under development for the upcoming version 1.1. Once combined, these two components will enable the device to measure a wide range of dose rates.
   </div>
 
 ## Troubleshooting and FAQ
