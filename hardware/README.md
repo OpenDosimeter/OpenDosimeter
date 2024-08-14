@@ -64,7 +64,7 @@ Here are all of the required components and tools for assembly. Also included is
 - Price on OpenDosimeter board decreases substantially the larger quantity you order
 - Device assembly only requires small amounts of Electrical Tape, Aluminum Tape, and Optical Couplant, thus the total cost is inflated by their initial purchase.
 
-### Hardware Assembly
+## Hardware Assembly
 
 **Follow along instructions for Hardware can be found on our YouTube**
 <div align="center">
