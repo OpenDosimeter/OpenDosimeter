@@ -1,5 +1,5 @@
 # Hardware
-Our design leverages a cusom OpenDosimeter board, LYSO scintillation crystal and SiPM (silicon photomultiplier). The figure below outlines key features of the OpenDosimeter board that is essential to the hardware design. 
+Our design leverages the custom OpenDosimeter board with external components including a scintillation crystal (LYSO) coupled to a silicon photomultiplier (SiPM) for X-ray detection, and a Raspberry Pico as for the computation. The figure below shows the key features of the OpenDosimeter board. 
 <div align=center>
 <img width="500" alt="board-overview" src="https://github.com/user-attachments/assets/4594c9e4-8149-4a25-a02a-83c2b1c2eb5e">
 </div>
