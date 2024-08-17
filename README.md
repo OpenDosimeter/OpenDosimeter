@@ -1,9 +1,11 @@
 # OpenDosimeter
 
-Our open-source hardware and software dosimeter offers an afordable solution for real-time, self-monitored radiation exposure. With a total component cost of roughly $90, this device provides an accessible option for radiation monitoring to promote broad access to radiation safety.
-<div align=center>
-<img width="500" alt="Complete cased device" src="https://github.com/user-attachments/assets/2c953f12-2e8e-4769-899f-a14eeb83f2f3">
-</div>
+Our open-source hardware and software dosimeter offers an afordable solution for real-time, self-monitored X-ray radiation exposure. With a total component cost of roughly $90, this device provides an accessible option for radiation monitoring to promote broad access to radiation safety.
+
+<p float="center">
+  <img src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/OpenDosimeter%20logo.png" width="35%" /> 
+  <img src="https://github.com/user-attachments/assets/2c953f12-2e8e-4769-899f-a14eeb83f2f3" width="35%" />
+</p>
 
 ## Key Features 
 - **Open-Source Design:** The hardware and software are fully open-source, enabling customization and personalization to enhance and broaden the capabilities of the dosimeter
@@ -13,6 +15,7 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 - **Local Calibration:** Using Am-241 from an ionization household smoke detector, the device can be calibrated for accurate dose calculations
 - **Real-time:** Instantly read out radiation exposure levels, eliminating the need for specialized read-out facilities, pre-existing infrastructure, and monthly subscription fees (e.g., for OSL or TLD badges)
 - **Affordable:** With a price point around $90, the device is a low-cost option to democratize access to radiation safety
+- **Data Logging:** Storage of dose rates and accumulated dose for the last 10 hours on the device (1 s sampling).
   <div align=center>
     <img width="463"  alt="Cost Breakdown" src="https://github.com/user-attachments/assets/65f5abfe-b1fb-4192-8f79-10c1414b636d">
     </br>
@@ -35,26 +38,37 @@ Additionally, if you prefer to order directly from the PCB manufacturer, you can
 **[@OpenDosimeter](https://www.youtube.com/channel/UCCUE-LeyRK8Y6H67ti1gdNA):** Finally, head over to our YouTube channel for instructional manuals on ordering the PCB, assembling, programming, and calibrating the device.
 
 ## Working Principle 
+The flow chart below illustrates the operation, using grey boxes to represent hardware components and orange boxes to indicate software functionality. The current software version (1.0) implements photon-counting capabilities (excellent for low to medium dose rates). A parallel energy-integrating component (for medium to high dose rates)is under development for the upcoming software version 1.1.
  <div align=left>
     <img width="600"  alt="Flowchart of device principle" src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Flowchart.png">
     </br>
-   This high-level flow chart illustrates device operation, using grey boxes to represent hardware components and orange boxes to indicate software functionality. The current software version (1.0) implements photon-counting capabilities. A parallel energy-integrating component is under development for the upcoming version 1.1. Once combined, these two components will enable the device to measure a wide range of dose rates.
-  </div>
+</div>
 
 ## Troubleshooting and FAQ
 Refer to [REFERENCE.md](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/REFERENCE.md) for troubleshooting support and guidance in debugging.
-- submitting to issues
+
 
 ## Future Improvements
-1. The power switch is fragile and can easily be broken if pressed too hard. Future iterations of the hardware could feature a power button similar to the side button which would increase the durability and longevity of the device.
-2. In order to make an even more integrated and compact design, the RP2040 chip from the Raspberry Pi Pico could be incorporated in the OpenDosimeter board. 
+1. The current power switch on the OpenDosimeter board is fragile and sometimes breaks. Future iterations of the hardware should replace for a more durable model.
+2. In order to make an even more integrated and compact design, the RP2040 chip from the Raspberry Pi Pico could be incorporated into the OpenDosimeter board. 
 
 ## Project Team
+Many people have contributed to this project so far:
+- **Kian Shaker (Stanford University)** (Project lead)
+- Alice Ku (Stanford University)
+- Jasmyn Lopez (Stanford University)
+- Enoch Anyenda (University of Nairobi)
+- Norah Ger (Mama Lucy Kibaki Hospital, Nairobi)
+- Grace Ateka (Kenya Bureau of Standards)
+- Jia Wang (Stanford University)
+- Robert Bennett (Stanford University)
+- Adam Wang (Stanford University)
+- Matthias Rozesky (https://nuclearphoenix.xyz/)
 
 ## Contributing to OpenDosimeter
-- interested in contributing to future development and support for new features openDosimeter
-- need to add section on contacting developers opendosimeter@gmail.com
+The OpenDosimeter is a living project and we invite people to submit issues, suggest improvements, and contribute to future development!
+Interested? Reach out to Kian Shaker (kians@stanford.edu or opendosimeter@gmail.com)
 
 ## Acknowledgements
-Our device is inspired by the [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector/tree/main)
+The basis for our hardware and software is inspired by the fantastic [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector/tree/main) project, check it out! 
 
