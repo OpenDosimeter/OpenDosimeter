@@ -1,23 +1,24 @@
 # Software 
-This software folder contains a precompiled file for simplest set up, and the arduino sketch to make changes to the software. Below are instructions for how to program your OpenDosimeter. 
+This software folder contains a precompiled file for simplest set up, and the arduino sketch to make changes to the software. The software was based on the [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector) (FW. 4.2.1). Below are instructions for how to program your OpenDosimeter once you have assembled it:
 
 ## Step 1: Programming the Raspberry Pi Pico
 ### Option 1: Default Settings
 **If you don't want to change the code and just want to program the pico with default settings follow these steps!**
-1. Download the [OpenDosimeter.uf2](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/software/OpenDosimeter.uf2) file in the software file
-2. Use the micro-USB connection to plug the Raspberry Pi Pico into a computer
-3. When the file manager window pops up, drag the ``OpenDosimeter.uf2`` file into the directory. Your device should restart and is now ready for callibration.
+1. Download the [OpenDosimeter.uf2](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/software/OpenDosimeter.uf2) file in the software folder
+2. Connect the OpenDosimeter to the computer using the micro-USB port of the Raspberry Pico
+3. When it is your first time programming the Pico, it should appear as an external drive. When the  file manager window pops up, drag the ``OpenDosimeter.uf2`` file onto the drive. Your device should then automatically restart and is now ready to be calibrated (go to Step 2).
    
-**Check out our YouTube to follow-along as we program the OpenDosimeter**
+**Check out our YouTube video showing the steps above**
 <div align="center">
 <a href="https://youtu.be/HLWoSg5BW90" target="_blank">
     <img  src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Thumbnail%203.png" alt="Programming Thumbnail" width="540" target="_blank" style="border:none; ">
 </a>
 </div>
 
-### Option 2: Uploading Using ArduinoIDE
-**Here's how you can modify the provided code**
-Set up Program Environment
+### Option 2: Uploading using ArduinoIDE
+**Useful if you'd like to see how the code works for potentially modifying it**
+
+_Set up the programming environment_
 1. Install ArduinoIDE
 2. Install Raspberry Pi Pico Board in the ArduinoIDE
    - Open Arduino --> ``Settings/Preferences`` --> ``Additional Board Managers URL``
@@ -32,12 +33,16 @@ Set up Program Environment
     - ``Adafruit_SSD1306``
     - ``Adafruit_SH110X``
     - ``RunningMedian``
-Download OpenDosimeter Code
+
+_Download the OpenDosimeter software_
+
 4. Download the folder [OpenDosimeter_ino](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/software/OpenDosimeter_ino)
 5. Open the file ``OpenDosimeter_ino.ino`` to open the code in ArduinoIDE
-6. Feel free to modify the code to add new desired features
-Program the Device
-7. Flash the Pico
+6. Here you can inspect and modify the code to add new desired features
+   
+_Program the Device_
+
+8. Flash the Pico
     - Connect Pico over USB
     - Choose the following settings:
        - **Board:** ``Tools`` --> ``Board`` --> ``Raspberry Pi RP2040 Boards``
@@ -47,7 +52,7 @@ Program the Device
     - Press the ``Upload`` button
 
 ## Step 2: Calibrating the Device
-**A step-by-step guide to calibrating the device is on our YouTube channel**
+**A step-by-step guide for calibrating the device is on our YouTube channel**
 <div align="center">
 <a href="https://youtu.be/eI6PJFmvRmY" target="_blank">
     <img  src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Thumbnail%204.png" alt="Calibrating Thumbnail" width="540" target="_blank" style="border:none; ">
@@ -55,18 +60,17 @@ Program the Device
 </div>
 </br>
 
-1. Extract Am-241 from household ionization smoke detector
+1. Extract Am-241 from any household ionization smoke detector
     - See this [video](https://www.youtube.com/watch?v=lOWNI6bC5EM) for disassembling instructions
-2. Turn ``ON`` your assembled and programmed device
+2. Turn ``ON`` your assembled and programmed device (using the power switch)
 3. ``Long Press`` side button to open Reset/Calibration menu
 4. ``Long Press`` again to begin calibration
 5. Align Am-241 with the circle on the back of the case
     - You should see two peaks forming
-    - Keep Am-241 in place until calibration is complete (~1 minute)
+    - Keep Am-241 in place until calibration is complete (up to 1 minute recording)
 6. Your device should say ``Calibrating...Done``
 
 **For troubleshooting, checkout the [REFERENCE.md](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/REFERENCE.md)**
-
 
 ## Step 3: Programmed Device Overview
 **A complete overview of the device is on our YouTube channel**
