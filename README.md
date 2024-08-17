@@ -71,6 +71,6 @@ The OpenDosimeter is a living project and we invite people to submit issues, sug
 Want to contribute? Reach out to Kian Shaker (kians@stanford.edu / opendosimeter@gmail.com)
 
 ## Acknowledgements
-_Inspiration:_ The basis for our hardware and software is inspired by the fantastic [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector/tree/main) project, check it out! 
+_Inspiration:_ The basis for our hardware and software is inspired by the fantastic [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector/tree/main) project, check it out! Much of its detailed documentation is relevant to the OpenDosimeter as well (SiPM behavior, X-ray counting concept etc.)
 
 _Funding support:_ King Center on Global Development at Stanford University, Knut and Alice Wallenberg Foundation
