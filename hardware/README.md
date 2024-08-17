@@ -7,21 +7,21 @@ Our design leverages a cusom OpenDosimeter board, LYSO scintillation crystal and
 ## Components
 
 ### OpenDosimeter PCB
-Follow these steps to order the OpenDosimeter board: 
+Follow these steps to order the OpenDosimeter board (see video instructions below):
 1. **Download Files:** download the following files located in this folder
-    - [openDosimeter_PCB_EasyEDA.json](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/hardware/OpenDosimeter_PCB_EasyEDA.json)
-    - [openDosimeter_SCH_EasyEDA.json](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/hardware/OpenDosimeter_SCH_EasyEDA.json)
+    - [OpenDosimeter_PCB_EasyEDA.json](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/hardware/OpenDosimeter_PCB_EasyEDA.json)
+    - [OpenDosimeter_SCH_EasyEDA.json](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/hardware/OpenDosimeter_SCH_EasyEDA.json)
 2. **Open in EasyEDA**
-    - Go to easyeda.com
-    - Log in or create an account
+    - Go to easyeda.com [EasyEDA](https://easyeda.com/)
+    - Create an account (or log in if you have one already)
     - Click ``Design Online``
     - Click ``Std Edition``
     - Click ``New Project`` and give it a title
     - Drag and drop both the ``PCB`` and ``SCH`` files into EasyEDA
 
-      | Schematic |<img width="700" alt="Image of Schematic File" src="https://github.com/user-attachments/assets/e582a008-7870-41ae-bcdd-088169dfb7a5">|
+      | Schematic |<img width="400" alt="Image of Schematic File" src="https://github.com/user-attachments/assets/e582a008-7870-41ae-bcdd-088169dfb7a5">|
       |---------------------------------------------|--------------------------------------------------------------------------------------|
-      | **PCB** |<img width="700" alt="Image of PCB File" src="https://github.com/user-attachments/assets/ce661b25-9531-46c1-96a8-eccab1b3691f"> |
+      | **PCB** |<img width="400" alt="Image of PCB File" src="https://github.com/user-attachments/assets/ce661b25-9531-46c1-96a8-eccab1b3691f"> |
 
     - ``File`` --> ``Save`` or ``CMD + s`` to save both files to the project you created
     - On the PCB file, click ``Fabrication`` --> ``One Click Order PCB/SMT`` --> ``Yes, Check DCR`` --> ``One Click Order`` --> ``OK``
@@ -34,7 +34,7 @@ Follow these steps to order the OpenDosimeter board:
     - Select a product description from drop down
     - Add to cart and checkout
   
-**A complete tutorial for ordering the OpenDosimeter Board is on our YouTube**
+**A complete video tutorial for ordering the OpenDosimeter Board is on our YouTube**
 <div align="center">
 <a href="https://youtu.be/UWabvXynp9I" target="_blank">
     <img  src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Thumbnail%201.png" alt="Ordering OpenDosimeter Board Thumbnail" width="540" target="_blank" style="border:none;">
@@ -44,7 +44,7 @@ Follow these steps to order the OpenDosimeter board:
 
 
 ### 3D Printed Case 
-We have designed 3D-printable cases for OpenDosimeter with different styles. Each case has two parts, a top and bottom. The ``.stl`` files can be found in the [case](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/case) folder.
+We have designed a 3D-printable cases for the OpenDosimeter. Each case has two parts, a top and bottom. The ``.stl`` files can be found in the [case](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/case) folder.
 
 ### Table of Materials
 Here are all of the required components and tools for assembly. Also included is the purpose, specification details, cost, and links to purchase each component. 
