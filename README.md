@@ -54,7 +54,7 @@ Refer to [REFERENCE.md](https://github.com/OpenDosimeter/OpenDosimeter/blob/main
 
 ## Project Team
 Many people have contributed to the realization of this project so far:
-- **Kian Shaker (Stanford University)** [Project lead]
+- Kian Shaker (Stanford University) **[Project lead]**
 - Alice Ku (Stanford University)
 - Jasmyn Lopez (Stanford University)
 - Enoch Anyenda (University of Nairobi)
@@ -67,7 +67,8 @@ Many people have contributed to the realization of this project so far:
 
 ## Contributing to OpenDosimeter
 The OpenDosimeter is a living project and we invite people to submit issues, suggest improvements, and contribute to future development!
-Interested? Reach out to Kian Shaker (kians@stanford.edu or opendosimeter@gmail.com)
+
+Want to contribute? Reach out to Kian Shaker (kians@stanford.edu / opendosimeter@gmail.com)
 
 ## Acknowledgements
 _Inspiration:_ The basis for our hardware and software is inspired by the fantastic [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector/tree/main) project, check it out! 
