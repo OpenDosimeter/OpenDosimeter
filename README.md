@@ -63,7 +63,7 @@ Many people have contributed to the realization of this project so far:
 - Jia Wang (Stanford University)
 - Robert Bennett (Stanford University)
 - Adam Wang (Stanford University)
-- Matthias Rozesky (https://nuclearphoenix.xyz/)
+- Matthias Rosezky (https://nuclearphoenix.xyz/)
 
 ## Contributing to OpenDosimeter
 The OpenDosimeter is a living project and we invite people to submit issues, suggest improvements, and contribute to future development!
