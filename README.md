@@ -53,8 +53,8 @@ Refer to [REFERENCE.md](https://github.com/OpenDosimeter/OpenDosimeter/blob/main
 2. In order to make an even more integrated and compact design, the RP2040 chip from the Raspberry Pi Pico could be incorporated into the OpenDosimeter board. 
 
 ## Project Team
-Many people have contributed to this project so far:
-- **Kian Shaker (Stanford University)** (Project lead)
+Many people have contributed to the realization of this project so far:
+- **Kian Shaker (Stanford University)** [Project lead]
 - Alice Ku (Stanford University)
 - Jasmyn Lopez (Stanford University)
 - Enoch Anyenda (University of Nairobi)
@@ -70,5 +70,6 @@ The OpenDosimeter is a living project and we invite people to submit issues, sug
 Interested? Reach out to Kian Shaker (kians@stanford.edu or opendosimeter@gmail.com)
 
 ## Acknowledgements
-The basis for our hardware and software is inspired by the fantastic [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector/tree/main) project, check it out! 
+_Inspiration:_ The basis for our hardware and software is inspired by the fantastic [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector/tree/main) project, check it out! 
 
+_Funding support:_ King Center on Global Development at Stanford University, Knut and Alice Wallenberg Foundation
