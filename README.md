@@ -17,8 +17,9 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 - **Buzzer:** Built in buzzer allows for optional audible warnings when radiation exposure exceeds predefined limit (default off)
 - **Local Calibration:** Using Am-241 from an ionization household smoke detector, the device can be calibrated for accurate dose calculations
 - **Real-time:** Instantly read out radiation exposure levels, eliminating the need for specialized read-out facilities, pre-existing infrastructure, and monthly subscription fees (e.g., for OSL or TLD badges)
-- **Affordable:** With a price point around $90, the device is a low-cost option to democratize access to radiation safety
 - **Data Logging:** Storage of dose rates and accumulated dose for the last 10 hours on the device (1 s sampling).
+- **Affordable:** Total cost of building an OpenDosimeter is around $90 (see cost breakdown below)
+  
   <div align=center>
     <img width="463"  alt="Cost Breakdown" src="https://github.com/user-attachments/assets/65f5abfe-b1fb-4192-8f79-10c1414b636d">
     </br>
@@ -68,10 +69,20 @@ Many people have contributed to the realization of this project so far:
 - Adam Wang (Stanford University)
 - Matthias Rosezky (https://nuclearphoenix.xyz/)
 
-## Contributing to OpenDosimeter
+## Contributing to Development
 The OpenDosimeter is a living project and we invite people to submit issues, suggest improvements, and contribute to future development!
 
 Want to contribute? Reach out to Kian Shaker (kians@stanford.edu / opendosimeter@gmail.com)
+
+### Submitting Issues and Suggestions
+
+If you encounter any problems, have questions, or want to suggest improvements:
+
+1. Go to our [Issues page](https://github.com/OpenDosimeter/OpenDosimeter/issues).
+2. Click on "New Issue".
+4. Provide as much detail as possible about your issue or suggestion.
+
+Note: You'll need a GitHub account to submit issues. It's free to sign up and contributes to a more collaborative open-source community. Another option to leave feedback is to contact us through opendosimeter@gmail.com.
 
 ## License
 
