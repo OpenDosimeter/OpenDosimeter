@@ -2,7 +2,7 @@
 
 Our open-source hardware and software dosimeter offers an afordable solution for real-time, self-monitored X-ray radiation exposure. With a total component cost of roughly $90, this device provides an accessible option for radiation monitoring to promote broad access to radiation safety. This project is a derivative of the [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector), with the main new feature being the effective dose calculations (in Sieverts) from the detected spectrum.
 
-**Note:** This is a research project; builders and users assume full responsibility for verifying the accuracy and reliability of measurements obtained from this device.
+> **SAFETY DISCLAIMER:** This is a research project; builders and users assume full responsibility for verifying the accuracy and reliability of measurements obtained from the dosimeters they build. Always follow proper radiation safety protocols and consult with qualified professionals when dealing with radiation exposure.
 
 <p float="center">
   <img src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/OpenDosimeter%20logo.png" width="35%" /> 
@@ -42,6 +42,7 @@ Additionally, if you prefer to order directly from the PCB manufacturer, you can
 
 ## Working Principle 
 The flow chart below illustrates the operation, using grey boxes to represent hardware components and orange boxes to indicate software functionality (inspired by the [Open Gamma Detector flowchart](https://github.com/OpenGammaProject/Open-Gamma-Detector/tree/main?tab=readme-ov-file#working-principle), demonstrating the similarity of the underlying design). The current software version (1.0) implements photon-counting capabilities (excellent for low to medium dose rates). A parallel energy-integrating component (for medium to high dose rates)is under development for the upcoming software version 1.1.
+
  <div align=left>
     <img width="600"  alt="Flowchart of device principle" src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Flowchart.svg">
     </br>
@@ -71,6 +72,10 @@ Many people have contributed to the realization of this project so far:
 The OpenDosimeter is a living project and we invite people to submit issues, suggest improvements, and contribute to future development!
 
 Want to contribute? Reach out to Kian Shaker (kians@stanford.edu / opendosimeter@gmail.com)
+
+## License
+
+The OpenDosimeter project is released under the GNU General Public License v3.0 (GPL3). This means you're free to use, modify, and distribute the project for any purpose, including commercial applications. However, if you distribute software based on OpenDosimeter, you must make your source code available under the same GPL3 license. This ensures that improvements remain accessible to the community. We encourage innovation and commercial development, as we believe this can lead to wider adoption and further enhancements in radiation safety technology. For the full license text, see the [LICENSE](link-to-license-file) file in our repository.
 
 ## Acknowledgements
 _Inspiration:_ The basis for our hardware and software is the fantastic [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector/tree/main) project, check it out! Much of its detailed documentation is relevant to the OpenDosimeter as well (SiPM behavior, X-ray counting concept etc.)
