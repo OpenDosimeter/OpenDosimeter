@@ -41,7 +41,7 @@ Additionally, if you prefer to order directly from the PCB manufacturer, you can
 **[@OpenDosimeter](https://www.youtube.com/channel/UCCUE-LeyRK8Y6H67ti1gdNA):** Finally, head over to our YouTube channel for instructional manuals on ordering the PCB, assembling, programming, and calibrating the device.
 
 ## Working Principle 
-<img src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Flowchart.svg" width="40%" align="right" alt="Flowchart of device principle">
+<img src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Flowchart.png" width="40%" align="right" alt="Flowchart of device principle">
 
 The flow chart below illustrates the operation, using grey boxes to represent hardware components and orange boxes to indicate software functionality (inspired by the [Open Gamma Detector flowchart](https://github.com/OpenGammaProject/Open-Gamma-Detector/tree/main?tab=readme-ov-file#working-principle), demonstrating the similarity of the underlying design)
 
