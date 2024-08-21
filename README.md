@@ -11,9 +11,9 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 
 ## Key Features 
 - **Open Design:** The hardware and software are fully open-source, enabling customization and personalization to enhance and broaden the capabilities of the dosimeter
-- **Compact Format:** 73mm x 42mm x 23mm
+- **Compact Format:** 73 mm x 42 mm x 23 mm (with the case)
 - **Easily Programmable:** Drag and drop firmware files
-- **Dose range:** Currently reliable between about 0.5 uSv/h to 1 mSv/h range with ±20% accuracy in the [photon counting](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/README.md#working-principle) range (technical paper coming soon on arXiv)
+- **Dose range:** Currently reliable between around 0.5 uSv/h to 1 mSv/h (±20% accuracy) in the [photon counting](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/README.md#working-principle) range (technical paper showing this coming soon on arXiv)
 - **Buzzer:** Built in buzzer allows for optional audible warnings when radiation exposure exceeds predefined limit (default off)
 - **Local Calibration:** Using Am-241 from an ionization household smoke detector, the device can be calibrated for accurate dose calculations
 - **Real-time:** Instantly read out radiation exposure levels, eliminating the need for specialized read-out facilities, pre-existing infrastructure, and monthly subscription fees (e.g., for OSL or TLD badges)
@@ -23,11 +23,11 @@ Our open-source hardware and software dosimeter offers an afordable solution for
   <div align=center>
     <img width="463"  alt="Cost Breakdown" src="https://github.com/user-attachments/assets/65f5abfe-b1fb-4192-8f79-10c1414b636d">
     </br>
-    Device cost (quantity of 15)
+    Rough cost breakdown of 1 device (assuming ordering components for 15 devices)
   </div>
 
 ## How to Make One 
-**This repository has everything you need to create your own OpenDosimeter, below is an explanation of the repository structure:** 
+**This repository has everything you need to create your own OpenDosimeter:** 
 
 **[Case](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/case):** Use this directory to 3D print the case. It contains two sets of ``.stl`` files that can be downloaded to print top and bottom components for a case with and without a belt clip. 
 
