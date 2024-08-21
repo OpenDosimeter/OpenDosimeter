@@ -2,12 +2,13 @@
 
 Our open-source hardware and software dosimeter offers an afordable solution for real-time, self-monitored X-ray radiation exposure. With a total component cost of roughly $90, this device provides an accessible option for radiation monitoring to promote broad access to radiation safety. This project is a derivative of the [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector), with the main new feature being the effective dose calculations (in Sieverts) from the detected spectrum.
 
-<p float="center">
-  <img src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/OpenDosimeter%20logo.png" width="35%" /> 
-  <img src="https://github.com/user-attachments/assets/2c953f12-2e8e-4769-899f-a14eeb83f2f3" width="35%" />
-</p>
 
-> **SAFETY DISCLAIMER:** This is a research project; builders and users assume full responsibility for verifying the accuracy and reliability of measurements obtained from the dosimeters they build. Always follow proper radiation safety protocols and consult with qualified professionals when dealing with radiation exposure.
+<img src="https://github.com/user-attachments/assets/5c1948b8-772a-4dd8-bbd7-d9162b60cefd" width="40%" align="left">
+<br>
+      <blockquote>
+        <strong>SAFETY DISCLAIMER:</strong> This is a research project; builders and users assume full responsibility for verifying the accuracy and reliability of measurements obtained from the dosimeters they build. Always follow proper radiation safety protocols and consult with qualified professionals when dealing with radiation exposure.
+      </blockquote>
+<br clear="both">
 
 ## Key Features 
 - **Open Design:** The hardware and software are fully open-source, enabling customization and personalization to enhance and broaden the capabilities of the dosimeter
