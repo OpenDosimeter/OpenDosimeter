@@ -80,4 +80,4 @@ The OpenDosimeter project is released under the GNU General Public License v3.0 
 ## Acknowledgements
 _Inspiration:_ The basis for our hardware and software is the fantastic [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector/tree/main) project, check it out! Much of its detailed documentation is relevant to the OpenDosimeter as well (SiPM behavior, X-ray counting concept etc.)
 
-_Funding support:_ King Center on Global Development at Stanford University, Knut and Alice Wallenberg Foundation
+_Funding support:_ King Center on Global Development at Stanford University, Knut and Alice Wallenberg Foundation (PI: Kian Shaker)
