@@ -1,6 +1,8 @@
 # OpenDosimeter
 
-Our open-source hardware and software dosimeter offers an afordable solution for real-time, self-monitored X-ray radiation exposure. With a total component cost of roughly $90, this device provides an accessible option for radiation monitoring to promote broad access to radiation safety. This project is a derivative of the [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector), with the main new feature being the effective dose calculations (in Sv) from the detected spectrum.
+Our open-source hardware and software dosimeter offers an afordable solution for real-time, self-monitored X-ray radiation exposure. With a total component cost of roughly $90, this device provides an accessible option for radiation monitoring to promote broad access to radiation safety. This project is a derivative of the [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector), with the main new feature being the effective dose calculations (in Sieverts) from the detected spectrum.
+
+**Note:** This is a research project; builders and users assume full responsibility for verifying the accuracy and reliability of measurements obtained from this device.
 
 <p float="center">
   <img src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/OpenDosimeter%20logo.png" width="35%" /> 
@@ -8,9 +10,10 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 </p>
 
 ## Key Features 
-- **Open-Source Design:** The hardware and software are fully open-source, enabling customization and personalization to enhance and broaden the capabilities of the dosimeter
-- **Compact Design:** 73mm x 42mm x 23mm
+- **Open Design:** The hardware and software are fully open-source, enabling customization and personalization to enhance and broaden the capabilities of the dosimeter
+- **Compact Format:** 73mm x 42mm x 23mm
 - **Easily Programmable:** Drag and drop firmware files
+- **Dose range:** Currently reliable between about 0.5 uSv/h to 1 mSv/h range with ±20% accuracy in the [photon counting](https://github.com/OpenDosimeter/OpenDosimeter/edit/main/README.md#working-principle) range (technical paper coming soon on arXiv)
 - **Buzzer:** Built in buzzer allows for optional audible warnings when radiation exposure exceeds predefined limit (default off)
 - **Local Calibration:** Using Am-241 from an ionization household smoke detector, the device can be calibrated for accurate dose calculations
 - **Real-time:** Instantly read out radiation exposure levels, eliminating the need for specialized read-out facilities, pre-existing infrastructure, and monthly subscription fees (e.g., for OSL or TLD badges)
@@ -40,13 +43,12 @@ Additionally, if you prefer to order directly from the PCB manufacturer, you can
 ## Working Principle 
 The flow chart below illustrates the operation, using grey boxes to represent hardware components and orange boxes to indicate software functionality (inspired by the [Open Gamma Detector flowchart](https://github.com/OpenGammaProject/Open-Gamma-Detector/tree/main?tab=readme-ov-file#working-principle), demonstrating the similarity of the underlying design). The current software version (1.0) implements photon-counting capabilities (excellent for low to medium dose rates). A parallel energy-integrating component (for medium to high dose rates)is under development for the upcoming software version 1.1.
  <div align=left>
-    <img width="600"  alt="Flowchart of device principle" src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Flowchart.png">
+    <img width="600"  alt="Flowchart of device principle" src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Flowchart.svg">
     </br>
 </div>
 
 ## Troubleshooting and FAQ
 Refer to [REFERENCE.md](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/REFERENCE.md) for troubleshooting support and guidance in debugging.
-
 
 ## Future Improvements
 1. The current power switch on the OpenDosimeter board is fragile and sometimes breaks. Future iterations of the hardware should replace for a more durable model.
