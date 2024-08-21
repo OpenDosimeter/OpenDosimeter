@@ -13,7 +13,7 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 - **Open Design:** The hardware and software are fully open-source, enabling customization and personalization to enhance and broaden the capabilities of the dosimeter
 - **Compact Format:** 73mm x 42mm x 23mm
 - **Easily Programmable:** Drag and drop firmware files
-- **Dose range:** Currently reliable between about 0.5 uSv/h to 1 mSv/h range with ±20% accuracy in the [photon counting](https://github.com/OpenDosimeter/OpenDosimeter/edit/main/README.md#working-principle) range (technical paper coming soon on arXiv)
+- **Dose range:** Currently reliable between about 0.5 uSv/h to 1 mSv/h range with ±20% accuracy in the [photon counting](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/README.md#working-principle) range (technical paper coming soon on arXiv)
 - **Buzzer:** Built in buzzer allows for optional audible warnings when radiation exposure exceeds predefined limit (default off)
 - **Local Calibration:** Using Am-241 from an ionization household smoke detector, the device can be calibrated for accurate dose calculations
 - **Real-time:** Instantly read out radiation exposure levels, eliminating the need for specialized read-out facilities, pre-existing infrastructure, and monthly subscription fees (e.g., for OSL or TLD badges)
