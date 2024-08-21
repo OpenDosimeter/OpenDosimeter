@@ -22,8 +22,8 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 - **Accuracy:** Currently reliable between around **0.5 uSv/h to 1 mSv/h** (±20% accuracy) in the [photon counting](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/README.md#working-principle) range (technical paper showing this coming soon on arXiv)
 - **Buzzer:** Built in buzzer allows for optional audible warnings when readings exceeds predefined limit (default off)
 - **Calibratable:** Using Am-241 from any household ionization smoke detector for spectral/dose calibration
-- **Real-time:** Direct feedback on radiation exposure, compared to passive personal dosimeters requiring external readout (e.g., for OSL or TLD badges)
-- **Logging:** On-device flash storage of dose levels for the last 10 hours (1 s sampling)
+- **Real-time:** Direct feedback on radiation exposure, compared to passive dosimeters (e.g., OSL or TLD badges) requiring external readout
+- **Logging:** On-device flash storage of dose levels for the last 10 hours (1 Hz sampling)
 <br clear="right">
 
 ## How to Make One 
