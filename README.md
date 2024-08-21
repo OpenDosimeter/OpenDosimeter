@@ -71,7 +71,7 @@ Many people have contributed to the realization of this project so far:
 - Adam Wang (Stanford University)
 - Matthias Rosezky (https://nuclearphoenix.xyz/)
 
-## Contributing to Development
+## Contributing
 The OpenDosimeter is a living project and we invite people to contribute to future development!
 
 Want to contribute as a developer? Reach out to Kian Shaker (kians@stanford.edu / opendosimeter@gmail.com)
