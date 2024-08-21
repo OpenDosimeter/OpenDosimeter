@@ -1,6 +1,6 @@
 # OpenDosimeter
 
-Our open-source hardware and software dosimeter offers an afordable solution for real-time, self-monitored X-ray radiation exposure. With a total component cost of roughly $90, this device provides an accessible option for radiation monitoring to promote broad access to radiation safety. This project is a derivative of the [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector), with the main new feature being the effective dose calculations (in Sieverts) from the detected spectrum.
+Our open-source hardware and software dosimeter offers an afordable solution for real-time, self-monitored X-ray radiation exposure. With a total component cost of roughly $90, this device provides an accessible option for radiation monitoring to promote broad access to radiation safety. This project is a derivative of the [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector), with the main new feature being the effective dose calculations (in Sieverts) converted from the detected X-ray spectrum.
 
 
 <img src="https://github.com/user-attachments/assets/5c1948b8-772a-4dd8-bbd7-d9162b60cefd" width="40%" align="left">
@@ -16,7 +16,7 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 <img src="https://github.com/user-attachments/assets/65f5abfe-b1fb-4192-8f79-10c1414b636d" width="40%" align="right" alt="Cost Breakdown">
 
 - **Open Design:** Hardware and software designs are fully open-source, enabling reproducibility and customization
-- **Affordable:** Total cost is around $90, *see cost breakdown →*
+- **Affordable:** Total cost is around $90, see [here](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/hardware#table-of-materials) and cost breakdown →
 - **Compact:** 73 mm x 42 mm x 23 mm (with the case)
 - **Programmable:** Drag and drop firmware files
 - **Accuracy:** Currently reliable between around **0.5 uSv/h to 1 mSv/h** (±20% accuracy) in the [photon counting](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/README.md#working-principle) range (technical paper showing this coming soon on arXiv)
