@@ -10,7 +10,6 @@ Our open-source hardware and software dosimeter offers an afordable solution for
       </blockquote>
 <br clear="both">
 
-
 ## Key Features 
 
 <img src="https://github.com/user-attachments/assets/65f5abfe-b1fb-4192-8f79-10c1414b636d" width="40%" align="right" alt="Cost Breakdown">
@@ -19,8 +18,8 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 - **Affordable:** Total cost is ~$90, see [here](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/hardware#table-of-materials) and cost breakdown →
 - **Compact:** 73 mm x 42 mm x 23 mm (with the case)
 - **Programmable:** Drag and drop firmware files
-- **Accuracy:** Currently reliable between around **0.5 uSv/h to 1 mSv/h** (±20% accuracy) in the [photon counting](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/README.md#working-principle) range (technical paper showing this coming soon on arXiv)
-- **Buzzer:** Built in buzzer allows for optional audible warnings when readings exceeds predefined limit (default off)
+- **Accuracy:** Currently reliable between around **0.5 µSv/h to 1 mSv/h** (±20% accuracy) in the [photon counting](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/README.md#working-principle) range (technical paper showing this coming soon on arXiv)
+- **Buzzer:** Built in buzzer allows for optional audible warnings when dose rate exceeds predefined limit (default set to 5 µSv/h)
 - **Calibratable:** Using Am-241 from any household ionization smoke detector for spectral/dose calibration
 - **Real-time:** Direct feedback on radiation exposure, compared to passive dosimeters (e.g., OSL or TLD badges) requiring external readout
 - **Logging:** On-device flash storage of dose levels for the last 10 hours (1 Hz sampling)
