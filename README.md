@@ -73,9 +73,9 @@ Many people have contributed to the realization of this project so far:
 - Matthias Rosezky (https://nuclearphoenix.xyz/)
 
 ## Contributing to Development
-The OpenDosimeter is a living project and we invite people to submit issues, suggest improvements, and contribute to future development!
+The OpenDosimeter is a living project and we invite people to contribute to future development!
 
-Want to contribute? Reach out to Kian Shaker (kians@stanford.edu / opendosimeter@gmail.com)
+Want to contribute as a developer? Reach out to Kian Shaker (kians@stanford.edu / opendosimeter@gmail.com)
 
 ### Submitting Issues and Suggestions
 
@@ -85,7 +85,7 @@ If you encounter any problems, have questions, or want to suggest improvements:
 2. Click on "New Issue".
 4. Provide as much detail as possible about your issue or suggestion.
 
-Note: You'll need a GitHub account to submit issues. It's free to sign up and contributes to a more collaborative open-source community. Another option to leave feedback is to contact us through opendosimeter@gmail.com.
+*Note:* You'll need a GitHub account to submit issues. Another option to leave feedback is to contact us through opendosimeter@gmail.com.
 
 ## License
 
