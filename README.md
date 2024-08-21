@@ -13,23 +13,18 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 
 ## Key Features 
 
-<img src="https://github.com/user-attachments/assets/65f5abfe-b1fb-4192-8f79-10c1414b636d" width="45%" align="right" alt="Cost Breakdown">
+<img src="https://github.com/user-attachments/assets/65f5abfe-b1fb-4192-8f79-10c1414b636d" width="40%" align="right" alt="Cost Breakdown">
 
-- **Open Design:** The hardware and software are fully open-source, enabling customization and personalization to enhance and broaden the capabilities of the dosimeter
-- **Affordable:** Total cost of the components is around $90 (see cost breakdown on the right)
-- **Compact Format:** 73 mm x 42 mm x 23 mm (with the case)
-- **Easily Programmable:** Drag and drop firmware files
-- **Dose range:** Currently reliable between around <span style="color: red;">this text will be red</span> 0.5 uSv/h to 1 mSv/h (±20% accuracy) in the [photon counting](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/README.md#working-principle) range (technical paper showing this coming soon on arXiv)
-- **Buzzer:** Built in buzzer allows for optional audible warnings when radiation exposure exceeds predefined limit (default off)
-- **Local Calibration:** Using Am-241 from an ionization household smoke detector, the device can be calibrated for accurate dose calculations
-- **Real-time:** Instantly read out radiation exposure levels, eliminating the need for specialized read-out facilities, pre-existing infrastructure, and monthly subscription fees (e.g., for OSL or TLD badges)
-- **Data Logging:** Storage of dose rates and accumulated dose for the last 10 hours on the device (1 s sampling).
-
+- **Open Design:** Hardware and software designs are fully open-source, enabling reproducibility and customization
+- **Affordable:** Total cost is around $90, *see cost breakdown →*
+- **Compact:** 73 mm x 42 mm x 23 mm (with the case)
+- **Programmable:** Drag and drop firmware files
+- **Accuracy:** Currently reliable between around **0.5 uSv/h to 1 mSv/h** (±20% accuracy) in the [photon counting](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/README.md#working-principle) range (technical paper showing this coming soon on arXiv)
+- **Buzzer:** Built in buzzer allows for optional audible warnings when readings exceeds predefined limit (default off)
+- **Calibratable:** Using Am-241 from any household ionization smoke detector for spectral/dose calibration
+- **Real-time:** Direct feedback on radiation exposure, compared to passive personal dosimeters requiring external readout (e.g., for OSL or TLD badges)
+- **Logging:** On-device flash storage of dose levels for the last 10 hours (1 s sampling)
 <br clear="right">
-
-<div align="center">
-    <em>Rough cost breakdown of 1 device (assuming ordering components for 15 devices)</em>
-</div>
 
 ## How to Make One 
 **This repository has everything you need to create your own OpenDosimeter:** 
@@ -47,19 +42,22 @@ Additionally, if you prefer to order directly from the PCB manufacturer, you can
 **[@OpenDosimeter](https://www.youtube.com/channel/UCCUE-LeyRK8Y6H67ti1gdNA):** Finally, head over to our YouTube channel for instructional manuals on ordering the PCB, assembling, programming, and calibrating the device.
 
 ## Working Principle 
-The flow chart below illustrates the operation, using grey boxes to represent hardware components and orange boxes to indicate software functionality (inspired by the [Open Gamma Detector flowchart](https://github.com/OpenGammaProject/Open-Gamma-Detector/tree/main?tab=readme-ov-file#working-principle), demonstrating the similarity of the underlying design). The current software version (1.0) implements photon-counting capabilities (excellent for low to medium dose rates). A parallel energy-integrating component (for medium to high dose rates)is under development for the upcoming software version 1.1.
+<img src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Flowchart.svg" width="40%" align="right" alt="Flowchart of device principle">
 
- <div align=left>
-    <img width="600"  alt="Flowchart of device principle" src="https://github.com/OpenDosimeter/OpenDosimeter/blob/main/docs/Flowchart.svg">
-    </br>
-</div>
+The flow chart below illustrates the operation, using grey boxes to represent hardware components and orange boxes to indicate software functionality (inspired by the [Open Gamma Detector flowchart](https://github.com/OpenGammaProject/Open-Gamma-Detector/tree/main?tab=readme-ov-file#working-principle), demonstrating the similarity of the underlying design)
+
+The current software (``V.1.0``) converts X-ray photons to dose using a ***photon-counting*** principle (suitable for low to medium dose rates) 
+
+An ***energy-integrating*** parallel component (suitable for medium to high dose rates) is under development for an upcoming software upgrade (``V.1.1``)
+
+<br clear="right">
 
 ## Troubleshooting and FAQ
-Refer to [REFERENCE.md](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/REFERENCE.md) for troubleshooting support and guidance in debugging.
+Refer to [REFERENCE.md](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/REFERENCE.md) for troubleshooting support and guidance in debugging
 
 ## Future Improvements
-1. The current power switch on the OpenDosimeter board is fragile and sometimes breaks. Future iterations of the hardware should replace for a more durable model.
-2. In order to make an even more integrated and compact design, the RP2040 chip from the Raspberry Pi Pico could be incorporated into the OpenDosimeter board. 
+1. The current power switch on the OpenDosimeter board is fragile and sometimes breaks. Future iterations of the hardware should replace for a more durable model
+2. In order to make an even more integrated and compact design, the RP2040 chip from the Raspberry Pi Pico could be incorporated into the OpenDosimeter board 
 
 ## Project Team
 Many people have contributed to the realization of this project so far:
