@@ -162,7 +162,7 @@ struct EnergyCalibration {
   // likely an envelope average of a range of low-energy gamma peaks from Am-241 (9-36 keV)
   // By smoothing an Am241 gamma spectrum from a CdTe detector (Amptek X123),
   // we determined that the peak energy is probably around ~ 17-20 keV
-  float E2 = 20;    // Am-241 Energy peak 2 (keV)
+  float E2 = 19;    // Am-241 Energy peak 2 (keV)
   uint16_t X1 = 0; // ADC bin corresponding to peak 1
   uint16_t X2 = 0; // ADC bin corresponding to peak 2
   float k = 0;      // ADC -> Energy linear slope (E = k*x + m)
