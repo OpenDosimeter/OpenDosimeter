@@ -18,6 +18,7 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 - **Affordable:** Total cost is ~$90, see [here](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/hardware#table-of-materials) and cost breakdown →
 - **Compact:** 73 mm x 42 mm x 23 mm (with the case)
 - **Programmable:** Drag and drop firmware files
+- **Battery powered:** Current version has a capacity of up to 20 hours per full charge (<70 mA @ at 3.7V, 1200 mAh battery)
 - **Accuracy:** Currently reliable between around **0.5 µSv/h to 1 mSv/h** (±20% accuracy) in the [photon counting](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/README.md#working-principle) range (technical paper showing this coming soon on arXiv)
 - **Buzzer:** Built in buzzer allows for optional audible warnings when dose rate exceeds predefined limit (default set to 5 µSv/h)
 - **Calibratable:** Using Am-241 from any household ionization smoke detector for spectral/dose calibration
@@ -56,7 +57,8 @@ Refer to [REFERENCE.md](https://github.com/OpenDosimeter/OpenDosimeter/blob/main
 
 ## Future Improvements
 1. The current power switch on the OpenDosimeter board is fragile and sometimes breaks. Future iterations of the hardware should replace for a more durable model
-2. In order to make an even more integrated and compact design, the RP2040 chip from the Raspberry Pi Pico could be incorporated into the OpenDosimeter board 
+2. The power consumption of the current version is quite high (up to 70 mA @ 3.7 V), as it hasn't been optimized for power efficiency. Future hardware and software improvements should be able to improve the power efficiency by atleast 2x (i.e., up to 40 hours battery life with a 1200 mAh capacity LiPo).
+3. In order to make an even more integrated and compact design, the RP2040 chip from the Raspberry Pi Pico could be incorporated into the OpenDosimeter board 
 
 ## Project Team
 Many people have contributed to the realization of this project so far:
