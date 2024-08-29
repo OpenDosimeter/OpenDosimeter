@@ -15,7 +15,7 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 <img src="https://github.com/user-attachments/assets/65f5abfe-b1fb-4192-8f79-10c1414b636d" width="40%" align="right" alt="Cost Breakdown">
 
 - **Open Design:** Hardware and software designs are fully open-source, enabling reproducibility and customization
-- **Affordable:** Total cost is ~$90, see [here](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/hardware#table-of-materials) and cost breakdown →
+- **Affordable:** Total cost ~$90, see [here](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/hardware#table-of-materials) and cost breakdown →
 - **Compact:** 73 mm x 42 mm x 23 mm (with the case)
 - **Programmable:** Drag and drop firmware files
 - **Battery powered:** Current version has a capacity of up to 20 hours per full charge (<70 mA @ at 3.7V, 1200 mAh battery)
