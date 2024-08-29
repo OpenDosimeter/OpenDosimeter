@@ -1,4 +1,4 @@
-# OpenDosimeter
+# OpenDosimeter <a href="https://certification.oshwa.org/se000023"><img src="docs/oshw_certification.png" align="right" width="200"></a>
 
 Our open-source hardware and software dosimeter offers an afordable solution for real-time, self-monitored X-ray radiation exposure. With a total component cost of roughly $90, this device provides an accessible option for radiation monitoring to promote broad access to radiation safety. This project is a derivative of the [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector), with the main new feature being the effective dose calculations (in Sieverts) converted from the detected X-ray spectrum.
 
