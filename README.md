@@ -23,7 +23,7 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 - **Buzzer:** Built in buzzer allows for optional audible warnings when dose rate exceeds predefined limit (default set to 5 µSv/h)
 - **Calibratable:** Using Am-241 from any household ionization smoke detector for spectral/dose calibration
 - **Real-time:** Direct feedback on radiation exposure, compared to passive dosimeters (e.g., OSL or TLD badges) requiring external readout
-- **Logging:** On-device flash storage of dose levels for the last 10 hours (1 Hz sampling)
+- **Logging:** The last 10 hours of dose values are stored on the device; extracted through USB connection and our web interface [here](https://opendosimeter.org/#dataLog)
 <br clear="right">
 
 ## How to Make One 
