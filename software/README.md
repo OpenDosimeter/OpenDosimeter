@@ -29,7 +29,7 @@ _Set up the programming environment_
         - **NOTE**: Make sure the installed version is 3.9.5 (newer versions cause problems, as of Aug 30, 2024)
 3. Use the Library Manager (``tools`` --> ``library manager)`` to install the following dependency packages
     - ``TaskScheduler``
-    - ``SimpleShellEnhanced``
+    - ``SimpleShell Enhanced``
     - ``ArduinoJson``
     - ``Adafruit_SSD1306``
     - ``Adafruit_SH110X``
