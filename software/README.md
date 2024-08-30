@@ -26,6 +26,7 @@ _Set up the programming environment_
    - Press ``OK``
    - Go to ``Board Manager``
    - Search for "Raspberry Pico" and install ``Raspberry Pi Pico/RP2040 by Earle F. Phillhower, III``
+        - **NOTE**: Make sure the installed version is 3.9.5 (newer versions cause problems, as of Aug 30, 2024)
 3. Use the Library Manager (``tools`` --> ``library manager)`` to install the following dependency packages
     - ``TaskScheduler``
     - ``SimpleShellEnhanced``
@@ -33,6 +34,7 @@ _Set up the programming environment_
     - ``Adafruit_SSD1306``
     - ``Adafruit_SH110X``
     - ``RunningMedian``
+    - ``RunningAverage``
 
 _Download the OpenDosimeter software_
 
