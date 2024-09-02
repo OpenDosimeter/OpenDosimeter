@@ -38,8 +38,8 @@ _Set up the programming environment_
 
 _Download the OpenDosimeter software_
 
-4. Download the folder [OpenDosimeter_ino](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/software/OpenDosimeter_ino)
-5. Open the file ``OpenDosimeter_ino.ino`` to open the code in ArduinoIDE
+4. Download the .zip [OpenDosimeter_v1.0.zip](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/software/OpenDosimeter_v1.0.zip) which contains the .ino source code
+5. Open the file ``OpenDosimeter_v1.0.ino`` to open the code in ArduinoIDE
 6. Here you can inspect and modify the code to add new desired features
    
 _Program the Device_
