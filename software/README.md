@@ -89,11 +89,8 @@ Once your device is programmed, you should see the OpenDosimeter home screen and
 </div>
 
 
-## Data Log
-$\text{\color{red} Link to Data Log Coming Soon!}$
-
-
-
+## Data Log Generation
+This [web interface](https://opendosimeter.org/#dataLog) allows makers of OpenDosimeter to connect their device through USB, then visualize the stored dose log (past 10 hours) with the options to download the data as a .csv file for further analysis.
 
 
 
