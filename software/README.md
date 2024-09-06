@@ -4,7 +4,7 @@ This software folder contains a precompiled file for simplest set up, and the ar
 ## Step 1: Programming the Raspberry Pi Pico
 ### Option 1: Default Settings
 **If you don't want to change the code and just want to program the pico with default settings follow these steps!**
-1. Download the [OpenDosimeter_v1.0.uf2](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/software/OpenDosimeter_v1.0.uf2) file in the software folder
+1. Download the [OpenDosimeter_v1.0.1.uf2](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/software/OpenDosimeter_v1.0.uf2) file in the software folder
 2. Connect the OpenDosimeter to the computer using the micro-USB port of the Raspberry Pico
 3. When it is your first time programming the Pico, it should appear as an external drive. When the  file manager window pops up, drag the ``OpenDosimeter_v1.0.uf2`` file onto the drive. Your device should then automatically restart and is now ready to be calibrated (go to Step 2).
    
@@ -38,8 +38,8 @@ _Set up the programming environment_
 
 _Download the OpenDosimeter software_
 
-4. Download the .zip [OpenDosimeter_v1.0.zip](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/software/OpenDosimeter_v1.0.zip) which contains the .ino source code
-5. Open the file ``OpenDosimeter_v1.0.ino`` to open the code in ArduinoIDE
+4. Download the .zip [OpenDosimeter_v1.0.1.zip](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/software/OpenDosimeter_v1.0.1.zip) which contains the .ino source code
+5. Open the file ``OpenDosimeter_v1.0.1.ino`` to open the code in ArduinoIDE
 6. Here you can inspect and modify the code to add new desired features
    
 _Program the Device_
