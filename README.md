@@ -10,6 +10,17 @@ Our open-source hardware and software dosimeter offers an afordable solution for
       </blockquote>
 <br clear="both">
 
+<br>
+
+**As of September 16, 2024**, we have published a technical paper of the OpenDosimeter on arXiv:
+
+<blockquote>
+      
+N. Ger, A. Ku, J. Lopez, N. R. Bennett, J. Wang, G. Ateka, E. Anyenda, M. Rosezky, A. S. Wang, & K. Shaker, [*"OpenDosimeter: Open Hardware Personal X-ray Dosimeter"*](https://arxiv.org/abs/2409.09993) arXiv:2409.09993 (2024) 
+</blockquote>
+
+Please cite the paper above if you want to reference the OpenDosimeter project.
+
 ## Key Features 
 
 <img src="https://github.com/user-attachments/assets/65f5abfe-b1fb-4192-8f79-10c1414b636d" width="40%" align="right" alt="Cost Breakdown">
@@ -19,7 +30,7 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 - **Compact:** 73 mm x 42 mm x 23 mm (with the case)
 - **Programmable:** Drag and drop firmware files
 - **Battery powered:** Current version has a capacity of up to 20 hours per full charge (<70 mA @ at 3.7V, 1200 mAh battery)
-- **Accuracy:** Currently reliable between around **0.5 µSv/h to 1 mSv/h** (±20% accuracy) in the [photon counting](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/README.md#working-principle) range (technical paper showing this coming soon on arXiv)
+- **Accuracy:** Currently reliable between around **0.1 µSv/h to 1 mSv/h** (±25% accuracy) in the [photon counting](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/README.md#working-principle) range (technical paper showing this coming soon on arXiv)
 - **Buzzer:** Built in buzzer allows for optional audible warnings when dose rate exceeds predefined limit (default set to 5 µSv/h)
 - **Calibratable:** Using Am-241 from any household ionization smoke detector for spectral/dose calibration
 - **Real-time:** Direct feedback on radiation exposure, compared to passive dosimeters (e.g., OSL or TLD badges) requiring external readout
@@ -91,6 +102,27 @@ If you encounter any problems, have questions, or want to suggest improvements:
 ## License
 
 The OpenDosimeter project is released under the GNU General Public License v3.0 (GPL3). This means you're free to use, modify, and distribute the project for any purpose, including commercial applications. However, if you distribute software based on OpenDosimeter, you must make your source code available under the same GPL3 license. This ensures that improvements remain accessible to the community. We encourage innovation and commercial development, as we believe this can lead to wider adoption and further enhancements in radiation safety technology. For the full license text, see the [LICENSE](https://github.com/OpenDosimeter/OpenDosimeter/tree/main?tab=GPL-3.0-1-ov-file) tab in our repository.
+
+## Citation
+
+If your project references OpenDosimeter, or if you use it as a basis for your next cool project, please cite the paper on ArXiv:
+<blockquote>
+N. Ger, A. Ku, J. Lopez, N. R. Bennett, J. Wang, G. Ateka, E. Anyenda, M. Rosezky, A. S. Wang, & K. Shaker, "[OpenDosimeter: Open Hardware Personal X-ray Dosimeter](https://arxiv.org/abs/2409.09993)" arXiv:2409.09993 (2024)
+</blockquote>
+
+Or directly use the BibTex entry below:
+
+```bibtex
+@misc{OpenDosimeter,
+      title={OpenDosimeter: Open Hardware Personal X-ray Dosimeter}, 
+      author={Norah Ger and Alice Ku and Jasmyn Lopez and N. Robert Bennett and Jia Wang and Grace Ateka and Enoch Anyenda and Matthias Rosezky and Adam S. Wang and Kian Shaker},
+      year={2024},
+      eprint={2409.09993},
+      archivePrefix={arXiv},
+      primaryClass={physics.ins-det},
+      url={https://arxiv.org/abs/2409.09993}, 
+}
+```
 
 ## Acknowledgements
 _Inspiration:_ The basis for our hardware and software is the fantastic [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector/tree/main) project, check it out! Much of its detailed documentation is relevant to the OpenDosimeter as well (SiPM behavior, X-ray counting concept etc.)
