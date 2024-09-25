@@ -107,6 +107,7 @@ The OpenDosimeter project is released under the GNU General Public License v3.0 
 
 If your project references OpenDosimeter, or if you use it as a basis for your next cool project, please cite the paper on ArXiv:
 <blockquote>
+      
 N. Ger, A. Ku, J. Lopez, N. R. Bennett, J. Wang, G. Ateka, E. Anyenda, M. Rosezky, A. S. Wang, & K. Shaker, "[OpenDosimeter: Open Hardware Personal X-ray Dosimeter](https://arxiv.org/abs/2409.09993)" arXiv:2409.09993 (2024)
 </blockquote>
 
