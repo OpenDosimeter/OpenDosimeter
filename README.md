@@ -87,7 +87,7 @@ Many people have contributed to the realization of this project so far:
 ## Contributing
 The OpenDosimeter is a living project and we invite people to contribute to future development!
 
-Want to contribute as a developer? Reach out to Kian Shaker (kians@stanford.edu / opendosimeter@gmail.com)
+Want to contribute as a developer? Reach out to Kian Shaker (kiansd@kth.se / opendosimeter@gmail.com)
 
 ### Submitting Issues and Suggestions
 
