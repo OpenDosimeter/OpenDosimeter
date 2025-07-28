@@ -28,7 +28,7 @@ Follow these steps to order the OpenDosimeter board (see video instructions belo
 3. **Open in JLCPCB**
     - Once redirected to JLCPCB, log in or create an account
     - Choose quantity of PCB
-    - Recomended: ``Select LeadFree HSL``
+    - Recommended: ``Select LeadFree HSL``
     - Select ``PCB Assembly``
     - ``Confirm`` --> ``Next`` --> ``Next`` --> ``OK``
     - Select a product description from drop down

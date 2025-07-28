@@ -68,7 +68,7 @@ Refer to [REFERENCE.md](https://github.com/OpenDosimeter/OpenDosimeter/blob/main
 
 ## Future Improvements
 1. The current power switch on the OpenDosimeter board is fragile and sometimes breaks. Future iterations of the hardware should replace for a more durable model
-2. The power consumption of the current version is quite high (up to 70 mA @ 3.7 V), as it hasn't been optimized for power efficiency. Future hardware and software improvements should be able to improve the power efficiency by atleast 2x (i.e., up to 40 hours battery life with a 1200 mAh capacity LiPo).
+2. The power consumption of the current version is quite high (up to 70 mA @ 3.7 V), as it hasn't been optimized for power efficiency. Future hardware and software improvements should be able to improve the power efficiency by at least 2x (i.e., up to 40 hours battery life with a 1200 mAh capacity LiPo).
 3. In order to make an even more integrated and compact design, the RP2040 chip from the Raspberry Pi Pico could be incorporated into the OpenDosimeter board 
 
 ## Project Team
