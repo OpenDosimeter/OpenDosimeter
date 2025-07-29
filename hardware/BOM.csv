@@ -25,7 +25,7 @@ ID,Name,Designator,Footprint,Quantity,Manufacturer Part,Manufacturer,Supplier,Su
 24,210kΩ,"R9,R15,R17",R0603,3,0603WAF2103T5E,UNI-ROYAL(厚声),LCSC,C22952,0.001,2,,Extended Part,,210K,
 25,1kΩ,R20,R0603,1,ARG03BTC1001,Viking(光颉),LCSC,C309080,0.018,2,LCSC,Extended Part,,,https://lcsc.com/eda_search?q=C309080&%26type=1&ref=editor
 26,49.9kΩ,"R21,R22",R0603,2,RT0603BRD0749K9L,YAGEO(国巨),LCSC,C705780,0.022,2,LCSC,Extended Part,49.9kΩ,,
-27,10KΩ[NTC],R23,R0603,1,NTCS0603E3103FLT,VISHAY(威世),LCSC,C142556,0.381,2,LCSC,Extended Part,,,
+27,10KΩ (NTC),R23,R0603,1,NTCS0603E3103FLT,VISHAY(威世),LCSC,C142556,0.381,2,LCSC,Extended Part,,,
 28,49.9Ω,"R24,R25",R0603,2,0603WAF499JT5E,UNI-ROYAL(厚声),LCSC,C23185,0.001,2,,Basic Part,,49.9,
 29,1.8kΩ,"R26,R29",R0603,2,0603WAF1801T5E,UNI-ROYAL(厚声),LCSC,C4177,0.001,2,,Basic Part,,,https://lcsc.com/eda_search?q=C4177&%26type=1&ref=editor
 30,24kΩ,R30,R0603,1,0603WAF2402T5E,UNI-ROYAL(厚声),LCSC,C23352,0.001,2,,Basic Part,,,https://lcsc.com/eda_search?q=C23352&%26type=1&ref=editor
