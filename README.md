@@ -12,11 +12,12 @@ Our open-source hardware and software dosimeter offers an afordable solution for
 
 <br>
 
-**As of September 16, 2024**, we have published a technical paper of the OpenDosimeter on arXiv:
+**As of December 1, 2025**, the paper on  OpenDosimeter has been peer reviewed and published in _Communications Engineering_:
 
 <blockquote>
-      
-N. Ger, A. Ku, J. Lopez, N. R. Bennett, J. Wang, G. Ateka, E. Anyenda, M. Rosezky, A. S. Wang, & K. Shaker, [*"OpenDosimeter: Open Hardware Personal X-ray Dosimeter"*](https://arxiv.org/abs/2409.09993) arXiv:2409.09993 (2024) 
+
+N. Ger, A. Ku, J. Lopez, N. R. Bennett, J. Wang, G. Ateka, E. Anyenda, M. Rosezky, P. Kilavi, A. S. Wang, & K. Shaker, [*"OpenDosimeter: Open hardware personal X-ray dosimeter"*](https://doi.org/10.1038/s44172-025-00540-0) _Commun Eng_ 4, 207 (2025)
+
 </blockquote>
 
 Please cite the paper above if you want to reference the OpenDosimeter project.
@@ -30,7 +31,7 @@ Please cite the paper above if you want to reference the OpenDosimeter project.
 - **Compact:** 73 mm x 42 mm x 23 mm (with the case)
 - **Programmable:** Drag and drop firmware files
 - **Battery powered:** Current version has a capacity of up to 20 hours per full charge (<70 mA @ at 3.7V, 1200 mAh battery)
-- **Accuracy:** Currently reliable between around **0.1 µSv/h to 1 mSv/h** (±25% accuracy) in the [photon counting](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/README.md#working-principle) range (technical paper showing this coming soon on arXiv)
+- **Accuracy:** Currently reliable between around **0.1 µSv/h to 1 mSv/h** (±25% accuracy) in the [photon counting](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/README.md#working-principle) range
 - **Buzzer:** Built in buzzer allows for optional audible warnings when dose rate exceeds predefined limit (default set to 5 µSv/h)
 - **Calibratable:** Using Am-241 from any household ionization smoke detector for spectral/dose calibration
 - **Real-time:** Direct feedback on radiation exposure, compared to passive dosimeters (e.g., OSL or TLD badges) requiring external readout
@@ -105,24 +106,27 @@ The OpenDosimeter project is released under the GNU General Public License v3.0 
 
 ## Citation
 
-If your project references OpenDosimeter, or if you use it as a basis for your next cool project, please cite the paper on ArXiv:
+If your project references OpenDosimeter, or if you use it as a basis for your next cool project, please cite the paper:
 <blockquote>
-      
-N. Ger, A. Ku, J. Lopez, N. R. Bennett, J. Wang, G. Ateka, E. Anyenda, M. Rosezky, A. S. Wang, & K. Shaker, "[OpenDosimeter: Open Hardware Personal X-ray Dosimeter](https://arxiv.org/abs/2409.09993)" arXiv:2409.09993 (2024)
+
+N. Ger, A. Ku, J. Lopez, N. R. Bennett, J. Wang, G. Ateka, E. Anyenda, M. Rosezky, P. Kilavi, A. S. Wang, & K. Shaker, [*"OpenDosimeter: Open hardware personal X-ray dosimeter"*](https://doi.org/10.1038/s44172-025-00540-0) _Commun Eng_ 4, 207 (2025)
+
 </blockquote>
 
 Or directly use the BibTex entry below:
 
 ```bibtex
-@misc{OpenDosimeter,
-      title={OpenDosimeter: Open Hardware Personal X-ray Dosimeter}, 
-      author={Norah Ger and Alice Ku and Jasmyn Lopez and N. Robert Bennett and Jia Wang and Grace Ateka and Enoch Anyenda and Matthias Rosezky and Adam S. Wang and Kian Shaker},
-      year={2024},
-      eprint={2409.09993},
-      archivePrefix={arXiv},
-      primaryClass={physics.ins-det},
-      url={https://arxiv.org/abs/2409.09993}, 
-}
+@article{ger2025opendosimeter,
+  title={OpenDosimeter: Open hardware personal X-ray dosimeter},
+  author={Ger, Norah and Ku, Alice and Lopez, Jasmyn and Bennett, N Robert and Wang, Jia and Ateka, Grace and Anyenda, Enoch and Rosezky, Matthias and Kilavi, Pamela and Wang, Adam S and others},
+  journal={Communications Engineering},
+  volume={4},
+  number={1},
+  pages={207},
+  year={2025},
+  publisher={Nature Publishing Group UK London}
+} 
+
 ```
 
 ## Acknowledgements
