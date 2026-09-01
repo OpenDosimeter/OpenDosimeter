@@ -1,12 +1,14 @@
 # Software 
-This software folder contains a precompiled file for simplest set up, and the arduino sketch to make changes to the software. The software was based on the [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector) (FW. 4.2.1). Below are instructions for how to program your OpenDosimeter once you have assembled it:
+This software folder contains precompiled files for simplest set up (one for the Raspberry Pi Pico, one for the Pico 2), and the arduino sketch to make changes to the software. The software was based on the [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector) (FW. 4.2.1). Below are instructions for how to program your OpenDosimeter once you have assembled it:
 
-## Step 1: Programming the Raspberry Pi Pico
+## Step 1: Programming the Raspberry Pi Pico / Pico 2
 ### Option 1: Default Settings
 **If you don't want to change the code and just want to program the pico with default settings follow these steps!**
-1. Download the [OpenDosimeter_v1.0.1.uf2](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/software/OpenDosimeter_v1.0.uf2) file in the software folder
+1. Download the pre-compiled file for your microcontroller from the software folder. The Raspberry Pi Pico and the Pico 2 are drop-in replacements for each other, but each needs its own file:
+    - **Raspberry Pi Pico** (RP2040): [OpenDosimeter_v1.0.1_Pico1.uf2](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/software/OpenDosimeter_v1.0.1_Pico1.uf2)
+    - **Raspberry Pi Pico 2** (RP2350): [OpenDosimeter_v1.0.1_Pico2.uf2](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/software/OpenDosimeter_v1.0.1_Pico2.uf2)
 2. Connect the OpenDosimeter to the computer using the micro-USB port of the Raspberry Pico
-3. When it is your first time programming the Pico, it should appear as an external drive. When the  file manager window pops up, drag the ``OpenDosimeter_v1.0.uf2`` file onto the drive. Your device should then automatically restart and is now ready to be calibrated (go to Step 2).
+3. When it is your first time programming the Pico, it should appear as an external drive. When the  file manager window pops up, drag the downloaded ``.uf2`` file onto the drive. Your device should then automatically restart and is now ready to be calibrated (go to Step 2).
    
 **Check out our YouTube video showing the steps above**
 <div align="center">
@@ -17,6 +19,8 @@ This software folder contains a precompiled file for simplest set up, and the ar
 
 ### Option 2: Uploading using ArduinoIDE
 **Useful if you'd like to see how the code works for potentially modifying it**
+
+**NOTE:** The walkthrough below is tailored to the **Raspberry Pi Pico** (RP2040), which needs the third-party board package and the pinned version in step 2. For the **Raspberry Pi Pico 2**, the setup is much simpler: the official Raspberry Pi Pico 2 board package available in the ArduinoIDE is sufficient, so you can skip the additional board manager URL and version pinning below and simply select the Pico 2 board.
 
 _Set up the programming environment_
 1. Install ArduinoIDE

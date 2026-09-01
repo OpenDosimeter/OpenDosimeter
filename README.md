@@ -22,6 +22,8 @@ N. Ger, A. Ku, J. Lopez, N. R. Bennett, J. Wang, G. Ateka, E. Anyenda, M. Rosezk
 
 Please cite the paper above if you want to reference the OpenDosimeter project.
 
+**As of September 1, 2026**, the hardware has been updated to **Revision 2**: a more robust power switch on the main board, and a new case with a side cut-out that makes the debug pins accessible from outside. See the [hardware](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/hardware) and [case](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/case) folders. Revision 1 files remain available in each folder under ``[old] Revision 1``.
+
 ## Key Features 
 
 <img src="https://github.com/user-attachments/assets/65f5abfe-b1fb-4192-8f79-10c1414b636d" width="40%" align="right" alt="Cost Breakdown">
@@ -29,7 +31,7 @@ Please cite the paper above if you want to reference the OpenDosimeter project.
 - **Open Design:** Hardware and software designs are fully open-source, enabling reproducibility and customization
 - **Affordable:** Total cost ~$90, see [here](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/hardware#table-of-materials) and cost breakdown →
 - **Compact:** 73 mm x 42 mm x 23 mm (with the case)
-- **Programmable:** Drag and drop firmware files
+- **Programmable:** Drag and drop firmware files. Either a Raspberry Pi Pico or a Raspberry Pi Pico 2 can be used — they are drop-in replacements for each other — see the [software](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/software) folder for which pre-compiled ``.uf2`` file to use
 - **Battery powered:** Current version has a capacity of up to 20 hours per full charge (<70 mA @ at 3.7V, 1200 mAh battery)
 - **Accuracy:** Currently reliable between around **0.1 µSv/h to 1 mSv/h** (±25% accuracy) in the [photon counting](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/README.md#working-principle) range
 - **Buzzer:** Built in buzzer allows for optional audible warnings when dose rate exceeds predefined limit (default set to 5 µSv/h)
@@ -41,7 +43,7 @@ Please cite the paper above if you want to reference the OpenDosimeter project.
 ## How to Make One 
 **This repository has everything you need to create your own OpenDosimeter:** 
 
-**[Case](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/case):** Use this directory to 3D print the case. It contains two sets of ``.stl`` files that can be downloaded to print top and bottom components for a case with and without a belt clip. 
+**[Case](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/case):** Use this directory to 3D print the case. It contains the ``.stl`` files for the top and bottom parts of the Revision 2 case, which has a cut-out on the side for the debug pins. The Revision 1 files are archived in the same directory. 
 
 **[Docs](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/docs):** This is where you can find the reference images used throughout this repository. 
 
@@ -68,9 +70,9 @@ An ***energy-integrating*** parallel component (suitable for medium to high dose
 Refer to [REFERENCE.md](https://github.com/OpenDosimeter/OpenDosimeter/blob/main/REFERENCE.md) for troubleshooting support and guidance in debugging
 
 ## Future Improvements
-1. The current power switch on the OpenDosimeter board is fragile and sometimes breaks. Future iterations of the hardware should replace for a more durable model
+1. ~~The current power switch on the OpenDosimeter board is fragile and sometimes breaks. Future iterations of the hardware should replace for a more durable model~~ — **resolved in Revision 2 (September 1, 2026)**, which uses a more durable switch
 2. The power consumption of the current version is quite high (up to 70 mA @ 3.7 V), as it hasn't been optimized for power efficiency. Future hardware and software improvements should be able to improve the power efficiency by at least 2x (i.e., up to 40 hours battery life with a 1200 mAh capacity LiPo).
-3. In order to make an even more integrated and compact design, the RP2040 chip from the Raspberry Pi Pico could be incorporated into the OpenDosimeter board 
+3. In order to make an even more integrated and compact design, the RP2040/RP2350 chip from the Raspberry Pi Pico or Pico 2 could be incorporated into the OpenDosimeter board 
 
 ## Project Team
 Many people have contributed to the realization of this project so far:

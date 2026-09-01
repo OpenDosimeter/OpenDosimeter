@@ -1,5 +1,8 @@
 # Hardware
-Our design leverages the custom OpenDosimeter board with external components including a scintillation crystal (LYSO) coupled to a silicon photomultiplier (SiPM) for X-ray detection, and a Raspberry Pico as for the computation. The board and its components for assembly can also be viewed on [Kitspace](https://kitspace.org/OpenDosimeter/OpenDosimeter). The figure below shows the key features of the OpenDosimeter board. 
+
+**As of September 1, 2026**, the files in this folder are **Revision 2** of the OpenDosimeter board, which uses a more robust power switch. The ordering instructions below are unchanged and the file names are the same. Revision 1 files are archived in [``[old] Revision 1``](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/hardware/%5Bold%5D%20Revision%201).
+
+Our design leverages the custom OpenDosimeter board with external components including a scintillation crystal (LYSO) coupled to a silicon photomultiplier (SiPM) for X-ray detection, and a Raspberry Pi Pico (or Pico 2) for the computation. The board and its components for assembly can also be viewed on [Kitspace](https://kitspace.org/OpenDosimeter/OpenDosimeter). The figure below shows the key features of the OpenDosimeter board. 
 <div align=center>
 <img width="500" alt="board-overview" src="https://github.com/user-attachments/assets/4594c9e4-8149-4a25-a02a-83c2b1c2eb5e">
 </div>
@@ -44,7 +47,7 @@ Follow these steps to order the OpenDosimeter board (see video instructions belo
 
 
 ### 3D Printed Case 
-We have designed a 3D-printable case for the OpenDosimeter. Each case has two parts, a top and bottom. The ``.stl`` files can be found in the [case](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/case) folder.
+We have designed a 3D-printable case for the OpenDosimeter. Each case has two parts, a top and bottom. The Revision 2 case has a cut-out on the side that makes the debug pins accessible from outside the case. The ``.stl`` files can be found in the [case](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/case) folder.
 
 ### Table of Materials
 Here are all of the required components and tools for assembly. Also included is the purpose, specification details, cost, and links to purchase each component. 
@@ -53,7 +56,7 @@ Here are all of the required components and tools for assembly. Also included is
 |OpenDosimeter PCB| Main Board  |Custom PCB, see instructions above | $20 |Directly from PCB manufacturer |
 |Battery  | Power |LiPo protected battery, ideally >1200 mAh, size around 34mm x 62mm x 5mm | $10 |[1200 mAh Lipo battery](https://www.digikey.com/en/products/detail/adafruit-industries-llc/258/5054544) |
 |Display| Displaying dose values to user |128x64 pixels, I2C, SSD1306 | $5 | [Amazon, 128x64 pixels, I2C, SSD1306](https://www.amazon.com/Teyleten-Robot-Display-SSD1306-Raspberry/dp/B0CN373JF4/ref=sr_1_4?crid=2FMQS7B2IFQAD&dib=eyJ2IjoiMSJ9.l-FK2pxw8wWhZ_wtkFb4O1fyrXLIhGQ52dk_-yA7h6FWtEW-CW5RA7_9w5hhpIE9lSkkBIurGV3JAYvQS695jjQR0VVPaO92fd4QVHkD4CTCp4bQsF8CrU8NM0aMPuOZ8RjYMbesVbpG_UDMbMGqyALbXdphIb0nHzBxKLcVF0Pm0UNgyMb1CITVfuh6bqspsPWljCJVLda51Ct931b4NpiFFhTkOtDTzaaWjYwOTCTaZgTjvpziUI1kPpnvJCXBBrgzoC6xlvPtjO4YGGF54xkeJpWnkoouL7rm1iE_GsA.JpSEJVJP5Itir15xcqstihVBHkHDpMhWXXJUSeBi6w4&dib_tag=se&keywords=i2c+128x64+oled+display&qid=1717603122&s=electronics&sprefix=i2c+128x64+oled+sipl%2Celectronics%2C134&sr=1-4) |
-|Raspberry Pi Pico| Microcontroller for programming |Regular version with no headers | $4 | [Raspberry Pico](https://www.digikey.com/en/products/detail/raspberry-pi/SC0915/13684020) |
+|Raspberry Pi Pico| Microcontroller for programming |Regular version with no headers. A Raspberry Pi Pico 2 can be used instead (drop-in replacement, see [software](https://github.com/OpenDosimeter/OpenDosimeter/tree/main/software)) | $4 | [Raspberry Pico](https://www.digikey.com/en/products/detail/raspberry-pi/SC0915/13684020) |
 |SiPM| Visible light sensor |6 mm model (MICROFC-60035-SMT-TR) | $33 | [MICROFC-60035-SMT-TR onsemi](https://www.digikey.com/en/products/detail/onsemi/MICROFC-60035-SMT-TR/9742618) |
 |LYSO crystal| X-ray to visible light conversion|5x5x1 mm| $30 | [LYSO Ce, 5 x 5 x 1mm](https://www.epic-scintillator.com/LYSO-scintillator-5x5x1mm) |
 |Plastic tweezer| Handling LYSO and SiPM | Plastic to prevent scratching the components| $5 |[Amazon, Electronic Repair Plastic Tweezers](https://www.amazon.com/Auniwaig-Anti-static-Tweezers-Precision-Electronics/dp/B08V4BF99K/ref=sr_1_12?crid=2P40DUMKMZHT0&dib=eyJ2IjoiMSJ9.5iYaL1v0I09-iIDQSI0il9h9dCchGEMT1_R94GDH6QmGBH9JFVbAaTAhQZnx0XBo4cjV3EEqDrwTKModIGqUoZWvEqlQyNpFlKvh4ELaqovPHcoU8QCtQ_gAPJ3ZQqBBykfEOf3ee_Jy_4Cu1DA4cSwaO0_pREw9jqP76LslU0dONBOJbGBz6dSRFpDfedrx9rXWLsOMbWLiBONTW1WC0Ly0xX2P2gjgEt74SLqEWsFbY5vmGJeui-m0vcTuJ7wPjrXGSxMzvf9YKbVLzJ0jwkunz39TJtpU8bXlPIO1iSg.wfmLhkznWWSroapnGolqC6t9x1-rZ5mUHo_qM8KZED4&dib_tag=se&keywords=plastic+tweezer+1+pc&qid=1722446225&refinements=p_36%3A-600&rnid=1243644011&sprefix=plastic+tweezer+1+pc%2Caps%2C127&sr=8-12) |
